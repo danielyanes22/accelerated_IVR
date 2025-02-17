@@ -1,0 +1,272 @@
+,formulation_ID,IVR_ID,release_method,media_pH,media_temp_oC,drug_loading,structure_type,Z_average_nm,PDI,zeta_potential,API_ID,API_name,weighted_Mw,weighted_Tm
+0,1,1,self-quenching,7.4,37.0,0.1,SUV,97.2,0.141,-9.4,1,doxorubicin,743.0,32.4
+1,2,2,self-quenching,7.4,37.0,0.1,SUV,93.8,0.1,-9.9,1,doxorubicin,743.7,32.9
+2,3,3,Dialysis,7.4,37.0,0.2,LUV,141.2,,,1,doxorubicin,752.1,36.9
+3,3,4,Dialysis,7.4,37.0,0.2,LUV,141.2,,,1,doxorubicin,752.1,36.9
+4,4,5,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+5,5,6,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+6,5,9,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+7,5,10,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+8,5,13,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+9,5,14,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+10,5,15,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+11,5,16,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+12,5,17,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+13,5,18,Dowex 50 cation exchange,6.0,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+14,5,19,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+15,5,20,Dowex 50 cation exchange,8.5,37.0,0.125,SUV,84.4,0.1,-2.7,1,doxorubicin,738.2,32.7
+16,6,7,Dowex 50 cation exchange,7.4,37.0,0.0625,SUV,97.5,0.1,-1.7,1,doxorubicin,817.5,40.9
+17,6,8,Dowex 50 cation exchange,7.4,37.0,0.0625,SUV,97.5,0.1,-1.7,1,doxorubicin,817.5,40.9
+18,7,11,Dowex 50 cation exchange,7.4,37.0,0.05,LMVV,10550.0,,-1.7,1,doxorubicin,628.7,32.2
+19,7,12,Dowex 50 cation exchange,7.4,37.0,0.05,LMVV,10550.0,,-1.7,1,doxorubicin,628.7,32.2
+20,9,21,self-quenching,7.4,37.0,0.5,LUV,141.3,0.106,-13.5,1,doxorubicin,817.5,40.9
+21,9,23,self-quenching,7.4,42.0,0.5,LUV,141.3,0.106,-13.5,1,doxorubicin,817.5,40.9
+22,9,25,self-quenching,7.4,37.0,0.5,LUV,141.3,0.106,-13.5,1,doxorubicin,817.5,40.9
+23,9,27,self-quenching,7.4,42.0,0.5,LUV,141.3,0.106,-13.5,1,doxorubicin,817.5,40.9
+24,8,22,self-quenching,7.4,37.0,0.05,LUV,148.3,0.022,-12.7,1,doxorubicin,817.5,40.9
+25,8,24,self-quenching,7.4,42.0,0.05,LUV,148.3,0.022,-12.7,1,doxorubicin,817.5,40.9
+26,8,26,self-quenching,7.4,37.0,0.05,LUV,148.3,0.022,-12.7,1,doxorubicin,817.5,40.9
+27,8,28,self-quenching,7.4,42.0,0.05,LUV,148.3,0.022,-12.7,1,doxorubicin,817.5,40.9
+28,11,29,self-quenching,7.4,37.0,0.5,LUV,156.2,0.025,-10.6,1,doxorubicin,817.5,40.9
+29,11,31,self-quenching,7.4,42.0,0.5,LUV,156.2,0.025,-10.6,1,doxorubicin,817.5,40.9
+30,11,33,self-quenching,7.4,37.0,0.5,LUV,156.2,0.025,-10.6,1,doxorubicin,817.5,40.9
+31,11,35,self-quenching,7.4,42.0,0.5,LUV,156.2,0.025,-10.6,1,doxorubicin,817.5,40.9
+32,10,30,self-quenching,7.4,37.0,0.05,LUV,145.3,0.087,-11.3,1,doxorubicin,817.5,40.9
+33,10,32,self-quenching,7.4,42.0,0.05,LUV,145.3,0.087,-11.3,1,doxorubicin,817.5,40.9
+34,10,34,self-quenching,7.4,37.0,0.05,LUV,145.3,0.087,-11.3,1,doxorubicin,817.5,40.9
+35,10,36,self-quenching,7.4,42.0,0.05,LUV,145.3,0.087,-11.3,1,doxorubicin,817.5,40.9
+36,13,37,self-quenching,7.4,37.0,0.5,LUV,153.1,0.134,-13.6,1,doxorubicin,817.5,40.9
+37,13,39,self-quenching,7.4,42.0,0.5,LUV,153.1,0.134,-13.6,1,doxorubicin,817.5,40.9
+38,13,41,self-quenching,7.4,37.0,0.5,LUV,153.1,0.134,-13.6,1,doxorubicin,817.5,40.9
+39,13,43,self-quenching,7.4,42.0,0.5,LUV,153.1,0.134,-13.6,1,doxorubicin,817.5,40.9
+40,12,38,self-quenching,7.4,37.0,0.05,LUV,156.3,0.124,-12.4,1,doxorubicin,817.5,40.9
+41,12,40,self-quenching,7.4,42.0,0.05,LUV,156.3,0.124,-12.4,1,doxorubicin,817.5,40.9
+42,12,42,self-quenching,7.4,37.0,0.05,LUV,156.3,0.124,-12.4,1,doxorubicin,817.5,40.9
+43,12,44,self-quenching,7.4,42.0,0.05,LUV,156.3,0.124,-12.4,1,doxorubicin,817.5,40.9
+44,14,45,Dialysis,7.4,37.0,0.05,LUV,127.2,0.18,-18.5,1,doxorubicin,730.2,31.6
+45,14,48,Dialysis,6.0,37.0,0.05,LUV,127.2,0.18,-18.5,1,doxorubicin,730.2,31.6
+46,14,51,Dialysis,7.4,37.0,0.05,LUV,127.2,0.18,-18.5,1,doxorubicin,730.2,31.6
+47,15,46,Dialysis,7.4,37.0,0.05,LUV,128.3,0.16,-15.3,1,doxorubicin,879.2,29.5
+48,15,49,Dialysis,6.0,37.0,0.05,LUV,128.3,0.16,-15.3,1,doxorubicin,879.2,29.5
+49,15,52,Dialysis,7.4,37.0,0.05,LUV,128.3,0.16,-15.3,1,doxorubicin,879.2,29.5
+50,16,47,Dialysis,7.4,37.0,0.05,LUV,135.1,0.2,-9.3,1,doxorubicin,1126.6,29.5
+51,16,50,Dialysis,6.0,37.0,0.05,LUV,135.1,0.2,-9.3,1,doxorubicin,1126.6,29.5
+52,16,53,Dialysis,7.4,37.0,0.05,LUV,135.1,0.2,-9.3,1,doxorubicin,1126.6,29.5
+53,17,54,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,87.03,0.073,-18.67,1,doxorubicin,738.2,32.7
+54,18,55,Dowex 50 cation exchange,7.4,37.0,0.125,SUV,87.18,0.069,-15.2,1,doxorubicin,738.2,32.7
+55,19,56,Dialysis,7.4,37.0,0.1,LUV,143.0,0.07,-4.63,1,doxorubicin,746.3,37.4
+56,20,57,Dialysis,7.4,37.0,0.1,LUV,183.0,0.09,-4.63,1,doxorubicin,746.3,37.4
+57,22,58,ModifiedUSP-4,6.0,37.0,0.125,SUV,86.2,0.081,,1,doxorubicin,742.7,32.4
+58,22,59,ModifiedUSP-4,6.0,45.0,0.125,SUV,86.2,0.081,,1,doxorubicin,742.7,32.4
+59,22,60,ModifiedUSP-4,6.0,55.0,0.125,SUV,86.2,0.081,,1,doxorubicin,742.7,32.4
+60,22,61,ModifiedUSP-4,6.0,45.0,0.125,SUV,86.2,0.081,,1,doxorubicin,742.7,32.4
+61,22,62,ModifiedUSP-4,6.0,45.0,0.125,SUV,86.2,0.081,,1,doxorubicin,742.7,32.4
+62,22,77,ModifiedUSP-4,6.0,45.0,0.125,SUV,86.2,0.081,,1,doxorubicin,742.7,32.4
+63,21,68,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.042,,1,doxorubicin,742.7,32.4
+64,21,69,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.042,,1,doxorubicin,742.7,32.4
+65,21,70,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.042,,1,doxorubicin,742.7,32.4
+66,21,71,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.042,,1,doxorubicin,742.7,32.4
+67,21,72,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.042,,1,doxorubicin,742.7,32.4
+68,21,76,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.042,,1,doxorubicin,742.7,32.4
+69,23,73,ModifiedUSP-4,6.0,45.0,0.125,SUV,79.4,0.274,,1,doxorubicin,742.7,32.4
+70,25,74,ModifiedUSP-4,6.0,45.0,0.125,SUV,87.0,0.102,,1,doxorubicin,742.7,32.4
+71,25,78,ModifiedUSP-4,6.0,45.0,0.125,SUV,87.0,0.102,,1,doxorubicin,742.7,32.4
+72,24,75,ModifiedUSP-4,6.0,45.0,0.125,SUV,84.2,0.067,,1,doxorubicin,727.2,1.0
+73,31,79,ModifiedUSP-4,6.0,45.0,0.125,SUV,86.0,0.18,,1,doxorubicin,734.2,32.1
+74,30,80,ModifiedUSP-4,6.0,45.0,0.125,SUV,91.0,0.15,,1,doxorubicin,734.2,32.1
+75,26,81,ModifiedUSP-4,6.0,45.0,0.125,LUV,111.0,0.2,-13.0,1,doxorubicin,734.2,32.1
+76,26,86,ModifiedUSP-4,6.0,45.0,0.125,LUV,111.0,0.2,-13.0,1,doxorubicin,734.2,32.1
+77,26,93,Dialysis,7.4,37.0,0.125,LUV,111.0,0.2,-13.0,1,doxorubicin,734.2,32.1
+78,26,96,Dialysis,7.4,37.0,0.125,LUV,111.0,0.2,-13.0,1,doxorubicin,734.2,32.1
+79,27,82,ModifiedUSP-4,6.0,45.0,0.125,SUV,87.0,0.15,-14.0,1,doxorubicin,734.2,32.1
+80,27,94,Dialysis,7.4,37.0,0.125,SUV,87.0,0.15,-14.0,1,doxorubicin,734.2,32.1
+81,27,97,Dialysis,7.4,37.0,0.125,SUV,87.0,0.15,-14.0,1,doxorubicin,734.2,32.1
+82,35,83,Dialysis,6.6,45.0,0.125,SUV,99.0,0.15,-14.06,1,doxorubicin,734.2,32.1
+83,35,89,Dialysis,6.6,45.0,0.125,SUV,99.0,0.15,-14.06,1,doxorubicin,734.2,32.1
+84,35,99,Dialysis,6.6,45.0,0.125,SUV,99.0,0.15,-14.06,1,doxorubicin,734.2,32.1
+85,37,84,Dialysis,6.6,45.0,0.125,SUV,101.0,0.14,-16.36,1,doxorubicin,734.2,32.1
+86,37,91,Dialysis,6.6,45.0,0.125,SUV,101.0,0.14,-16.36,1,doxorubicin,734.2,32.1
+87,37,100,Dialysis,6.6,45.0,0.125,SUV,101.0,0.14,-16.36,1,doxorubicin,734.2,32.1
+88,32,85,Dialysis,6.6,45.0,0.125,SUV,92.0,0.14,,1,doxorubicin,782.7,35.8
+89,28,87,ModifiedUSP-4,6.0,45.0,0.125,SUV,93.0,0.14,-14.0,1,doxorubicin,782.7,35.8
+90,28,95,Dialysis,7.4,37.0,0.125,SUV,93.0,0.14,-14.0,1,doxorubicin,782.7,35.8
+91,33,88,ModifiedUSP-4,6.0,45.0,0.125,SUV,88.0,0.12,,1,doxorubicin,725.8,34.6
+92,34,90,Dialysis,6.6,45.0,0.125,SUV,87.0,0.13,-12.23,1,doxorubicin,734.2,32.1
+93,36,92,Dialysis,6.6,45.0,0.125,SUV,101.0,0.15,-15.84,1,doxorubicin,734.2,32.1
+94,29,98,Dialysis,6.6,45.0,0.125,LUV,118.0,0.11,,1,doxorubicin,734.2,32.1
+95,38,101,ModifiedUSP-4,7.4,55.0,0.14,SUV,100.4,0.136,-40.15,2,amphotericin B,687.0,39.7
+96,39,102,ModifiedUSP-4,7.4,55.0,0.15,LUV,112.3,0.191,-36.45,2,amphotericin B,690.8,40.2
+97,40,103,ModifiedUSP-4,7.4,55.0,0.13,LUV,104.5,0.105,-32.7,2,amphotericin B,690.2,40.1
+98,42,105,ModifiedUSP-4,7.4,55.0,0.14,SUV,98.9,0.217,-28.0,2,amphotericin B,679.5,38.8
+99,43,106,Float A Lyzer,7.4,45.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+100,43,107,Float A Lyzer,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+101,43,108,Float A Lyzer,7.4,60.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+102,43,109,Float A Lyzer,7.4,45.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+103,43,110,Float A Lyzer,7.4,45.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+104,43,111,Float A Lyzer,7.4,45.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+105,43,112,ModifiedUSP-4,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+106,43,115,ModifiedUSP-4,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+107,43,116,ModifiedUSP-4,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+108,43,117,ModifiedUSP-4,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+109,43,121,ModifiedUSP-4,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+110,43,122,Float A Lyzer,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+111,43,123,Float A Lyzer,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+112,43,124,Float A Lyzer,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+113,43,125,Float A Lyzer,7.4,55.0,0.14,LUV,102.0,0.167,,2,amphotericin B,687.0,39.7
+114,47,113,ModifiedUSP-4,7.4,55.0,0.14,SUV,100.0,0.118,,2,amphotericin B,687.0,39.7
+115,48,114,ModifiedUSP-4,7.4,55.0,0.14,SUV,95.3,0.089,,2,amphotericin B,687.0,39.7
+116,44,118,ModifiedUSP-4,7.4,55.0,0.14,LUV,117.4,0.116,,2,amphotericin B,685.1,39.5
+117,45,119,ModifiedUSP-4,7.4,55.0,0.14,LUV,115.8,0.256,,2,amphotericin B,685.1,39.5
+118,46,120,ModifiedUSP-4,7.4,55.0,0.14,SUV,88.6,0.19,,2,amphotericin B,685.1,39.5
+119,49,126,ModifiedUSP-4,7.4,55.0,,SUV,120.0,,,2,amphotericin B,0,0
+120,50,127,ModifiedUSP-4,,,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+121,50,131,ModifiedUSP-4,,,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+122,50,132,ModifiedUSP-4,,,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+123,50,133,ModifiedUSP-4,,,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+124,50,134,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+125,50,135,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+126,50,136,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+127,50,137,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+128,50,138,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+129,50,139,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+130,50,140,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+131,50,141,Sample and Separate,,37.0,0.14,SUV,,,,2,amphotericin B,685.1,39.5
+132,54,173,Dialysis,7.4,37.0,0.05,LUV,135.0,0.27,-18.0,4,methotrexate,616.7,0.0
+133,55,174,Dialysis,7.4,37.0,0.05,LUV,200.0,0.25,-10.0,4,methotrexate,652.6,0.3
+134,56,175,self-quenching,,42.4,0.19,LUV,168.0,0.05,-22.5,5,carboxyfluorescein,759.4,42.4
+135,57,176,self-quenching,,40.9,0.2,LUV,141.0,0.05,-2.0,5,carboxyfluorescein,803.2,40.9
+136,58,177,self-quenching,,43.1,0.17,LUV,170.0,0.06,0.1,5,carboxyfluorescein,745.3,43.1
+137,59,178,self-quenching,,43.6,0.21,LUV,153.0,0.31,1.3,5,carboxyfluorescein,765.6,43.6
+138,60,179,self-quenching,,43.7,0.21,LUV,141.0,0.1,1.2,5,carboxyfluorescein,846.8,43.7
+139,61,180,self-quenching,7.4,37.0,0.12,,,,,1,doxorubicin,759.4,42.0
+140,61,181,self-quenching,7.4,38.0,0.12,,,,,1,doxorubicin,759.4,42.0
+141,61,182,self-quenching,7.4,39.0,0.12,,,,,1,doxorubicin,759.4,42.0
+142,61,183,self-quenching,7.4,40.0,0.12,,,,,1,doxorubicin,759.4,42.0
+143,61,184,self-quenching,7.4,41.0,0.12,,,,,1,doxorubicin,759.4,42.0
+144,61,185,self-quenching,7.4,42.0,0.12,,,,,1,doxorubicin,759.4,42.0
+145,61,186,self-quenching,,37.0,0.12,,,,,1,doxorubicin,759.4,42.0
+146,61,187,self-quenching,,38.0,0.12,,,,,1,doxorubicin,759.4,42.0
+147,61,188,self-quenching,,39.0,0.12,,,,,1,doxorubicin,759.4,42.0
+148,61,189,self-quenching,,40.0,0.12,,,,,1,doxorubicin,759.4,42.0
+149,61,190,self-quenching,,41.0,0.12,,,,,1,doxorubicin,759.4,42.0
+150,61,191,self-quenching,,42.0,0.12,,,,,1,doxorubicin,759.4,42.0
+151,62,192,self-quenching,,37.0,0.17,LUV,170.0,,0.1,5,carboxyfluorescein,745.3,43.1
+152,62,197,self-quenching,,43.1,0.17,LUV,170.0,,0.1,5,carboxyfluorescein,745.3,43.1
+153,63,193,self-quenching,,37.0,0.17,LUV,169.0,,-33.1,5,carboxyfluorescein,759.4,42.4
+154,63,198,self-quenching,,42.4,0.17,LUV,169.0,,-33.1,5,carboxyfluorescein,759.4,42.4
+155,64,194,self-quenching,,37.0,0.13,LUV,174.0,,-38.6,5,carboxyfluorescein,763.9,42.9
+156,64,199,self-quenching,,42.9,0.13,LUV,174.0,,-38.6,5,carboxyfluorescein,763.9,42.9
+157,65,195,self-quenching,,37.0,0.17,LUV,170.0,,-37.4,5,carboxyfluorescein,786.4,48.5
+158,66,196,self-quenching,,37.0,0.19,LUV,176.0,,-25.2,5,carboxyfluorescein,735.5,43.3
+159,66,200,self-quenching,,43.4,0.19,LUV,176.0,,-25.2,5,carboxyfluorescein,735.5,43.3
+160,77,201,Dialysis,7.4,37.0,0.5,MLV,788.0,,,8,atenolol,678.0,24.0
+161,78,202,Dialysis,7.4,37.0,0.5,MLV,1370.0,,,8,atenolol,734.0,41.0
+162,79,203,Dialysis,7.4,37.0,0.5,MLV,1670.0,,,8,atenolol,790.1,55.0
+163,80,204,Dialysis,7.4,37.0,0.5,MLV,820.0,,,8,atenolol,532.3,12.0
+164,81,205,Dialysis,7.4,37.0,0.5,MLV,795.0,,,8,atenolol,606.6,16.8
+165,67,206,Dialysis,7.4,37.0,0.09,MLV,788.0,,,7,propranolol,678.0,24.0
+166,68,207,Dialysis,7.4,37.0,0.09,MLV,1370.0,,,7,propranolol,734.0,41.0
+167,69,208,Dialysis,7.4,37.0,0.09,MLV,1670.0,,,7,propranolol,790.1,55.0
+168,70,209,Dialysis,7.4,37.0,0.09,MLV,820.0,,,7,propranolol,532.3,12.0
+169,71,210,Dialysis,7.4,37.0,0.09,MLV,795.0,,,7,propranolol,606.6,16.8
+170,82,211,Dialysis,7.4,37.0,0.5,SUV,30.0,,,8,atenolol,678.0,24.0
+171,83,212,Dialysis,7.4,37.0,0.5,SUV,32.0,,,8,atenolol,734.0,41.0
+172,84,213,Dialysis,7.4,37.0,0.5,SUV,35.0,,,8,atenolol,790.1,55.0
+173,85,214,Dialysis,7.4,37.0,0.5,SUV,31.0,,,8,atenolol,532.3,12.0
+174,86,215,Dialysis,7.4,37.0,0.5,SUV,30.0,,,8,atenolol,606.6,16.8
+175,72,216,Dialysis,7.4,37.0,0.09,SUV,30.0,,,7,propranolol,678.0,24.0
+176,73,217,Dialysis,7.4,37.0,0.09,SUV,32.0,,,7,propranolol,734.0,41.0
+177,74,218,Dialysis,7.4,37.0,0.09,SUV,35.0,,,7,propranolol,790.1,55.0
+178,75,219,Dialysis,7.4,37.0,0.09,SUV,31.0,,,7,propranolol,532.3,12.0
+179,76,220,Dialysis,7.4,37.0,0.09,SUV,30.0,,,7,propranolol,606.6,16.8
+180,87,221,Dialysis,7.4,25.0,0.05,MLV,,,,9,budesonide,770.1,0.0
+181,88,222,Dialysis,7.4,25.0,0.05,MLV,,,,9,budesonide,618.2,27.3
+182,89,223,Dialysis,7.4,25.0,0.05,MLV,,,,9,budesonide,790.1,55.0
+183,90,224,Dialysis,7.4,25.0,0.05,MLV,,,,10,hydrocortisone,770.1,0.0
+184,91,225,Dialysis,7.4,25.0,0.05,MLV,,,,10,hydrocortisone,790.1,55.0
+185,92,226,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+186,92,227,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+187,92,228,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+188,92,229,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+189,92,230,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+190,92,231,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+191,92,232,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+192,92,233,Sample and Separate,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+193,92,234,Dialysis,7.0,25.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+194,92,235,Dialysis,7.0,31.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+195,92,236,Dialysis,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+196,92,237,Dialysis,7.0,40.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+197,92,238,Dialysis,7.0,25.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+198,92,239,Dialysis,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+199,92,240,Dialysis,7.0,25.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+200,92,241,Dialysis,7.0,37.0,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+201,92,242,Dialysis,5.0,,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+202,92,243,Dialysis,6.0,,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+203,92,244,Dialysis,7.0,,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+204,92,245,Dialysis,10.0,,0.45,MLV,25500.0,,,11,bupivacaine,590.6,6.3
+205,95,250,VDC,,,,LUV,,,,12,rhodamine b,760.0,0.0
+206,95,256,VDC,7.4,25.0,,LUV,,,,12,rhodamine b,760.0,0.0
+207,96,251,VDC,,,,SUV,,,,12,rhodamine b,760.0,0.0
+208,96,257,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+209,94,252,VDC,,,,SUV,,,,12,rhodamine b,760.0,0.0
+210,94,255,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+211,93,253,VDC,,,,SUV,,,,12,rhodamine b,760.0,0.0
+212,93,254,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+213,97,258,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+214,98,259,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+215,99,260,VDC,7.4,25.0,,LUV,,,,12,rhodamine b,760.0,0.0
+216,100,261,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+217,101,262,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+218,102,263,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+219,103,264,VDC,7.4,25.0,,LUV,,,,12,rhodamine b,760.0,0.0
+220,104,265,VDC,7.4,25.0,,SUV,,,,12,rhodamine b,760.0,0.0
+221,105,267,ModifiedUSP-4,,37.0,,LUV,110.5,,-1.4,14,vincristine sulfate,663.9,36.9
+222,105,269,ModifiedUSP-4,,37.0,,LUV,110.5,,-1.4,14,vincristine sulfate,663.9,36.9
+223,106,268,ModifiedUSP-4,,37.0,,LUV,145.8,,-3.9,14,vincristine sulfate,726.5,36.9
+224,106,270,ModifiedUSP-4,,37.0,,LUV,145.8,,-3.9,14,vincristine sulfate,726.5,36.9
+225,107,271,Dialysis,7.4,37.0,0.5,LUV,131.0,0.23,-9.13,15,amoxicillin,586.4,27.2
+226,108,272,Dialysis,7.4,37.0,0.5,LUV,159.3,0.2,-12.97,15,amoxicillin,712.5,20.0
+227,109,273,Dialysis,,37.0,0.42,LUV,145.1,0.2,-0.11,16,calcein,694.6,27.5
+228,110,274,Dialysis,,37.0,0.42,LUV,101.7,0.16,-3.68,16,calcein,738.2,32.7
+229,111,275,Dialysis,,37.0,0.42,LUV,136.0,0.19,-0.06,16,calcein,848.3,48.0
+230,113,276,Dialysis,,37.0,0.42,LUV,140.4,0.18,0.26,16,calcein,886.7,53.1
+231,112,277,Dialysis,,37.0,0.42,LUV,128.6,0.15,2.33,1,doxorubicin,738.2,32.7
+232,112,278,Dialysis,,37.0,0.42,LUV,128.6,0.15,2.33,1,doxorubicin,738.2,32.7
+233,112,279,Dialysis,,37.0,0.42,LUV,128.6,0.15,2.33,1,doxorubicin,738.2,32.7
+234,114,280,Dialysis,,37.0,0.05,LUV,206.7,0.26,-18.8,17,paclitaxel,838.4,28.7
+235,115,281,Dialysis,,37.0,0.05,LUV,175.9,0.21,-24.9,18,gemcitabine,838.4,28.7
+236,116,282,Dialysis,,37.0,0.13,LUV,104.1,0.2,-41.3,19,5-Fluorouracil carbonate,768.1,33.1
+237,117,283,Dialysis,,37.0,0.05,LUV,181.77,0.207,-53.8,20,Hydroxy-alpha-sanshool,715.2,49.1
+238,118,284,Dialysis,,37.0,0.05,,,,,21,BAY 87-2243,844.8,60.9
+239,118,286,Dialysis,7.4,37.0,0.05,,,,,21,BAY 87-2243,844.8,60.9
+240,118,288,Dialysis,5.5,37.0,0.05,,,,,21,BAY 87-2243,844.8,60.9
+241,119,285,Dialysis,,37.0,0.05,LUV,168.3,0.176,35.32,21,BAY 87-2243,844.8,60.9
+242,119,287,Dialysis,7.4,37.0,0.05,LUV,168.3,0.176,35.32,21,BAY 87-2243,844.8,60.9
+243,119,289,Dialysis,5.5,37.0,0.05,LUV,168.3,0.176,35.32,21,BAY 87-2243,844.8,60.9
+244,120,290,Dialysis,1.2,37.0,0.125,,166.65,,,22,fraxetin,745.8,0.7
+245,120,291,Dialysis,7.4,37.0,0.125,,166.65,,,22,fraxetin,745.8,0.7
+246,120,292,Dialysis,7.0,37.0,0.125,,166.65,,,22,fraxetin,745.8,0.7
+247,121,293,Dialysis,7.0,37.0,,,187.0,,,1,doxorubicin,730.2,32.3
+248,122,294,Dispersion releaser,7.4,37.0,0.08,SUV,104.0,,,23,temoporfin,735.1,41.0
+249,123,295,Dialysis,7.4,37.0,0.05,MLV,1050.0,,,24,sulforhodamine B,665.7,16.4
+250,124,296,Dialysis,7.4,37.0,0.05,MLV,,,,24,sulforhodamine B,690.9,18.3
+251,125,297,Dialysis,7.4,37.0,0.05,MLV,,,,24,sulforhodamine B,709.3,23.1
+252,133,298,Dialysis,7.4,37.0,0.05,MLV,100.0,,,24,sulforhodamine B,690.9,18.3
+253,134,299,Dialysis,7.4,37.0,0.05,MLV,100.0,,,24,sulforhodamine B,665.7,16.4
+254,126,300,Dialysis,7.4,37.0,0.05,MLV,1260.0,0.122,-26.5,25,tetrodotoxin,665.7,16.4
+255,127,301,Dialysis,7.4,37.0,0.05,MLV,1140.0,0.159,-27.7,25,tetrodotoxin,690.9,18.3
+256,128,302,Dialysis,7.4,37.0,0.05,MLV,,,,11,bupivacaine,665.7,16.4
+257,129,303,Dialysis,7.4,37.0,0.05,MLV,,,,11,bupivacaine,690.9,18.3
+258,130,304,Dialysis,7.4,37.0,0.05,MLV,,,,1,doxorubicin,665.7,16.4
+259,131,305,Dialysis,7.4,37.0,0.05,MLV,,,,1,doxorubicin,690.9,18.3
+260,132,306,Dialysis,7.4,37.0,0.05,MLV,,,,24,sulforhodamine B,0,0
+261,135,308,Dialysis,7.4,37.0,0.015,LUV,143.0,0.22,-0.3,1,doxorubicin,646.1,40.3
+262,136,309,Dialysis,7.4,37.0,0.017,SUV,82.0,0.13,-2.1,1,doxorubicin,648.8,44.6
+263,137,310,Dialysis,7.4,37.0,0.017,LUV,104.0,0.14,-2.0,1,doxorubicin,655.5,51.1
+264,138,311,Dialysis,7.4,37.0,0.015,SUV,84.0,0.14,-2.6,1,doxorubicin,666.9,51.3
+265,139,312,Dialysis,7.4,37.0,0.013,LUV,110.0,0.16,-1.6,1,doxorubicin,721.7,44.5
+266,140,313,Dialysis,7.4,37.0,0.017,LUV,266.0,0.22,-2.0,1,doxorubicin,717.9,48.9
+267,141,314,Dialysis,7.4,37.0,0.1,LUV,103.9,0.069,-15.7,1,doxorubicin,608.5,29.5
+268,142,315,Dialysis,7.4,37.0,0.1,LUV,105.2,0.052,-17.9,1,doxorubicin,650.7,29.5
+269,143,316,Dialysis,7.4,37.0,0.1,LUV,101.1,0.024,-15.8,1,doxorubicin,564.5,20.1
+270,144,317,Dialysis,7.4,37.0,0.1,LUV,102.0,0.056,-18.2,1,doxorubicin,606.7,20.1
