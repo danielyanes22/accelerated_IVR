@@ -1,0 +1,1255 @@
+File_Name,Model,Optimized_Parameters,MAE
+data/drug_release/3..csv,zero_order,[1.749],3.4390480324606285
+data/drug_release/3..csv,first_order,[0.019],3.2441308089363456
+data/drug_release/3..csv,higuchi,[4.811],1.306397584827626
+data/drug_release/3..csv,korsmeyer_Peppas,[6.745 0.295],0.847298930388589
+data/drug_release/3..csv,weibull,[14.283  0.307],0.8692068499604338
+data/drug_release/3..csv,reciprocal,[10.678  0.745],1.5269831917856398
+data/drug_release/4..csv,zero_order,[0.835],1.6738775652034659
+data/drug_release/4..csv,first_order,[0.009],1.6297364420196292
+data/drug_release/4..csv,higuchi,[2.33],0.6582603154309717
+data/drug_release/4..csv,korsmeyer_Peppas,[3.276 0.296],0.31266280449511863
+data/drug_release/4..csv,weibull,[30.03   0.304],0.31237962099937305
+data/drug_release/4..csv,reciprocal,[6.041 0.894],0.2694998246442457
+data/drug_release/23..csv,zero_order,[146.957],40.23784639736476
+data/drug_release/23..csv,first_order,[11.284],14.069423278055622
+data/drug_release/23..csv,higuchi,[136.52],27.287094198779407
+data/drug_release/23..csv,korsmeyer_Peppas,[119.844   0.317],24.840241072861943
+data/drug_release/23..csv,weibull,[0.    3.823],1.583401361871829
+data/drug_release/23..csv,reciprocal,[1339.761   11.025],18.153940456625737
+data/drug_release/24..csv,zero_order,[148.988],41.41547879937218
+data/drug_release/24..csv,first_order,[12.002],15.021900760837966
+data/drug_release/24..csv,higuchi,[138.883],28.141951308673118
+data/drug_release/24..csv,korsmeyer_Peppas,[121.629   0.313],25.58342861685879
+data/drug_release/24..csv,weibull,[0.    4.223],1.5880592685087354
+data/drug_release/24..csv,reciprocal,[1416.135   11.536],18.957387787627646
+data/drug_release/27..csv,zero_order,[130.188],30.29071279334558
+data/drug_release/27..csv,first_order,[5.76],6.27600473698613
+data/drug_release/27..csv,higuchi,[116.572],15.892515851130478
+data/drug_release/27..csv,korsmeyer_Peppas,[107.762   0.38 ],12.580035213614757
+data/drug_release/27..csv,weibull,[0.128 1.147],6.802208256173546
+data/drug_release/27..csv,reciprocal,[754.878   6.505],6.7942595934569185
+data/drug_release/28..csv,zero_order,[138.103],36.416465331233894
+data/drug_release/28..csv,first_order,[8.618],8.38362935207272
+data/drug_release/28..csv,higuchi,[126.307],20.676289574372724
+data/drug_release/28..csv,korsmeyer_Peppas,[111.355   0.311],15.130102405259692
+data/drug_release/28..csv,weibull,[0.06  1.259],9.516699846235499
+data/drug_release/28..csv,reciprocal,[1165.177   10.3  ],8.739578704809261
+data/drug_release/31..csv,zero_order,[136.076],36.71680725263906
+data/drug_release/31..csv,first_order,[8.34],8.74955159737006
+data/drug_release/31..csv,higuchi,[124.535],21.292159418228625
+data/drug_release/31..csv,korsmeyer_Peppas,[109.392   0.307],15.814854409367008
+data/drug_release/31..csv,weibull,[0.026 1.62 ],9.283006277006715
+data/drug_release/31..csv,reciprocal,[1123.317   10.003],10.543091710486484
+data/drug_release/32..csv,zero_order,[142.502],39.37382759262301
+data/drug_release/32..csv,first_order,[9.579],8.134011961233943
+data/drug_release/32..csv,higuchi,[130.876],23.184203239833764
+data/drug_release/32..csv,korsmeyer_Peppas,[114.397   0.3  ],17.207139082306693
+data/drug_release/32..csv,weibull,[0.    4.161],4.040768665244761
+data/drug_release/32..csv,reciprocal,[1230.935   10.523],10.615755828100097
+data/drug_release/33..csv,zero_order,[10.31],1.9140071842855941
+data/drug_release/33..csv,first_order,[0.109],1.8534506438701188
+data/drug_release/33..csv,higuchi,[9.024],0.436008661161842
+data/drug_release/33..csv,korsmeyer_Peppas,[8.519 0.416],0.3806992848142417
+data/drug_release/33..csv,weibull,[11.242  0.427],0.3722468620377621
+data/drug_release/33..csv,reciprocal,[49.082  5.191],0.28390329525167174
+data/drug_release/34..csv,zero_order,[42.474],12.146543178886455
+data/drug_release/34..csv,first_order,[0.581],10.514446036459466
+data/drug_release/34..csv,higuchi,[39.314],6.524085725708126
+data/drug_release/34..csv,korsmeyer_Peppas,[33.936  0.283],4.577729862305251
+data/drug_release/34..csv,weibull,[2.402 0.332],4.466193737592457
+data/drug_release/34..csv,reciprocal,[386.603  11.103],2.790322214671439
+data/drug_release/35..csv,zero_order,[131.057],30.251488090740803
+data/drug_release/35..csv,first_order,[5.61],6.340857457206044
+data/drug_release/35..csv,higuchi,[116.829],15.89182945056451
+data/drug_release/35..csv,korsmeyer_Peppas,[108.625   0.389],12.849897000423658
+data/drug_release/35..csv,weibull,[0.118 1.207],6.72730647335226
+data/drug_release/35..csv,reciprocal,[716.794   6.052],7.227171088676669
+data/drug_release/36..csv,zero_order,[138.714],36.3040575599284
+data/drug_release/36..csv,first_order,[8.21],8.306251874715363
+data/drug_release/36..csv,higuchi,[126.47],20.753015250249472
+data/drug_release/36..csv,korsmeyer_Peppas,[111.865   0.317],15.417094570251043
+data/drug_release/36..csv,weibull,[0.046 1.392],9.665036653983352
+data/drug_release/36..csv,reciprocal,[1081.121    9.371],9.34688019170838
+data/drug_release/47..csv,zero_order,[1.08],15.055273504092769
+data/drug_release/47..csv,first_order,[0.017],13.111371181198555
+data/drug_release/47..csv,higuchi,[7.282],7.832960548152589
+data/drug_release/47..csv,korsmeyer_Peppas,[18.947  0.196],2.1686292985113345
+data/drug_release/47..csv,weibull,[4.876 0.239],2.027928395768019
+data/drug_release/47..csv,reciprocal,[20.583  0.527],0.41168204428892785
+data/drug_release/50..csv,zero_order,[1.289],13.15455409790558
+data/drug_release/50..csv,first_order,[0.021],10.632386247549286
+data/drug_release/50..csv,higuchi,[8.362],6.941858907732832
+data/drug_release/50..csv,korsmeyer_Peppas,[13.556  0.352],4.493140697356552
+data/drug_release/50..csv,weibull,[7.22  0.435],4.375519866881057
+data/drug_release/50..csv,reciprocal,[12.632  0.243],4.425135061444029
+data/drug_release/53..csv,zero_order,[1.29],15.49304292143168
+data/drug_release/53..csv,first_order,[0.022],12.800025393657782
+data/drug_release/53..csv,higuchi,[8.507],8.593968373585344
+data/drug_release/53..csv,korsmeyer_Peppas,[15.953  0.306],5.1113065593998614
+data/drug_release/53..csv,weibull,[6.004 0.382],4.9764311884488865
+data/drug_release/53..csv,reciprocal,[16.717  0.336],4.526701101882213
+data/drug_release/54..csv,zero_order,[0.178],1.0005065529431152
+data/drug_release/54..csv,first_order,[0.002],0.990839717257966
+data/drug_release/54..csv,higuchi,[0.804],0.4332089868153748
+data/drug_release/54..csv,korsmeyer_Peppas,[1.55  0.241],0.12250548255978033
+data/drug_release/54..csv,weibull,[64.079  0.244],0.12244112388634254
+data/drug_release/54..csv,reciprocal,[2.006 0.609],0.19188333475487654
+data/drug_release/56..csv,zero_order,[0.716],5.43106033535302
+data/drug_release/56..csv,first_order,[0.009],4.847661748140857
+data/drug_release/56..csv,higuchi,[4.513],1.2104336804661573
+data/drug_release/56..csv,korsmeyer_Peppas,[5.912 0.418],0.9843369376778113
+data/drug_release/56..csv,weibull,[17.093  0.464],1.0091315798223046
+data/drug_release/56..csv,reciprocal,[3.644 0.108],1.7636548432847061
+data/drug_release/57..csv,zero_order,[0.43],1.4169950358006094
+data/drug_release/57..csv,first_order,[0.005],1.2548194613858576
+data/drug_release/57..csv,higuchi,[2.523],1.657307252072031
+data/drug_release/57..csv,korsmeyer_Peppas,[1.092 0.746],0.7206393607757912
+data/drug_release/57..csv,weibull,[97.576  0.79 ],0.674020378117104
+data/drug_release/57..csv,reciprocal,[0.758 0.019],0.4970423789828327
+data/drug_release/58..csv,zero_order,[0.472],0.44693997259250934
+data/drug_release/58..csv,first_order,[0.005],0.3969395527555051
+data/drug_release/58..csv,higuchi,[1.893],0.8111330358921026
+data/drug_release/58..csv,korsmeyer_Peppas,[0.794 0.818],0.2663926210723701
+data/drug_release/58..csv,weibull,[130.63    0.846],0.2558130087524028
+data/drug_release/58..csv,reciprocal,[0.632 0.019],0.21104763977858487
+data/drug_release/59..csv,zero_order,[4.884],7.719371967723075
+data/drug_release/59..csv,first_order,[0.1],5.462196577457075
+data/drug_release/59..csv,higuchi,[19.736],6.949155137442556
+data/drug_release/59..csv,korsmeyer_Peppas,[11.098  0.712],4.22734926018377
+data/drug_release/59..csv,weibull,[28.429  1.432],1.3619942045796756
+data/drug_release/59..csv,reciprocal,[8.126 0.037],2.848029477573782
+data/drug_release/60..csv,zero_order,[5.41],32.78241102686541
+data/drug_release/60..csv,first_order,[0.523],8.903341748221788
+data/drug_release/60..csv,higuchi,[23.599],19.41078210785226
+data/drug_release/60..csv,korsmeyer_Peppas,[69.757  0.091],4.673696812991343
+data/drug_release/60..csv,weibull,[0.992 0.313],4.129013851803718
+data/drug_release/60..csv,reciprocal,[152.645   1.634],2.8389958086478515
+data/drug_release/61..csv,zero_order,[4.807],7.499095932781454
+data/drug_release/61..csv,first_order,[0.097],5.407844056720938
+data/drug_release/61..csv,higuchi,[19.491],7.066157701838261
+data/drug_release/61..csv,korsmeyer_Peppas,[10.741  0.719],4.202512592950507
+data/drug_release/61..csv,weibull,[28.911  1.426],1.3267752744464385
+data/drug_release/61..csv,reciprocal,[7.911 0.036],2.811302675369106
+data/drug_release/62..csv,zero_order,[6.006],23.66413081935936
+data/drug_release/62..csv,first_order,[0.237],6.525151833276493
+data/drug_release/62..csv,higuchi,[25.34],12.205201394419907
+data/drug_release/62..csv,korsmeyer_Peppas,[34.516  0.385],10.537279540167379
+data/drug_release/62..csv,weibull,[17.911  1.896],2.1204339122148266
+data/drug_release/62..csv,reciprocal,[26.543  0.197],6.633113321666128
+data/drug_release/70..csv,zero_order,[2.389],6.211082020497592
+data/drug_release/70..csv,first_order,[0.032],4.2926604655863585
+data/drug_release/70..csv,higuchi,[9.851],1.064964521265182
+data/drug_release/70..csv,korsmeyer_Peppas,[10.294  0.484],1.1019709056226386
+data/drug_release/70..csv,weibull,[10.181  0.589],1.3260825055167478
+data/drug_release/70..csv,reciprocal,[6.253 0.093],2.0349054823911956
+data/drug_release/71..csv,zero_order,[3.779],6.349272819014748
+data/drug_release/71..csv,first_order,[0.063],1.9987466062812311
+data/drug_release/71..csv,higuchi,[15.347],3.9761827304390986
+data/drug_release/71..csv,korsmeyer_Peppas,[9.859 0.663],1.3158274319960395
+data/drug_release/71..csv,weibull,[14.896  0.974],1.9821081654585453
+data/drug_release/71..csv,reciprocal,[6.511 0.041],1.7984971823027396
+data/drug_release/72..csv,zero_order,[3.599],3.2177757069001522
+data/drug_release/72..csv,first_order,[0.057],2.4190136075735498
+data/drug_release/72..csv,higuchi,[14.46],6.116027921719864
+data/drug_release/72..csv,korsmeyer_Peppas,[6.155 0.812],1.351298536778922
+data/drug_release/72..csv,weibull,[28.515  1.18 ],1.0760939591464138
+data/drug_release/72..csv,reciprocal,[4.834 0.019],1.0085654628346572
+data/drug_release/73..csv,zero_order,[4.2],10.99776235924482
+data/drug_release/73..csv,first_order,[0.081],2.854433805796962
+data/drug_release/73..csv,higuchi,[17.33],3.5585264778914785
+data/drug_release/73..csv,korsmeyer_Peppas,[16.076  0.528],3.647302752032183
+data/drug_release/73..csv,weibull,[8.632 0.856],2.0691796311753454
+data/drug_release/73..csv,reciprocal,[10.975  0.092],1.9373405879887888
+data/drug_release/74..csv,zero_order,[5.576],14.375444400139452
+data/drug_release/74..csv,first_order,[0.147],6.658008426902493
+data/drug_release/74..csv,higuchi,[22.97],7.060794058641072
+data/drug_release/74..csv,korsmeyer_Peppas,[19.42   0.562],6.868652750308804
+data/drug_release/74..csv,weibull,[21.279  1.532],2.468728515735185
+data/drug_release/74..csv,reciprocal,[13.262  0.078],4.434203222496539
+data/drug_release/75..csv,zero_order,[5.947],27.802284075407204
+data/drug_release/75..csv,first_order,[0.31],2.0241070291839556
+data/drug_release/75..csv,higuchi,[25.403],12.909812795270753
+data/drug_release/75..csv,korsmeyer_Peppas,[49.093  0.254],6.326576373571566
+data/drug_release/75..csv,weibull,[3.294 1.014],1.96724683356233
+data/drug_release/75..csv,reciprocal,[45.735  0.394],3.231082146578467
+data/drug_release/76..csv,zero_order,[3.58],2.638304986560064
+data/drug_release/76..csv,first_order,[0.056],2.9138824391805564
+data/drug_release/76..csv,higuchi,[14.32],6.702154391900315
+data/drug_release/76..csv,korsmeyer_Peppas,[5.497 0.85 ],1.490788445348245
+data/drug_release/76..csv,weibull,[33.329  1.233],0.9505428893573286
+data/drug_release/76..csv,reciprocal,[4.544 0.015],1.1363237753378437
+data/drug_release/77..csv,zero_order,[4.9],7.567315464330277
+data/drug_release/77..csv,first_order,[0.1],5.766755941816388
+data/drug_release/77..csv,higuchi,[19.773],7.234334060169724
+data/drug_release/77..csv,korsmeyer_Peppas,[10.765  0.724],4.445493987974141
+data/drug_release/77..csv,weibull,[30.481  1.462],1.2018850275111983
+data/drug_release/77..csv,reciprocal,[8.002 0.036],2.9894493608682846
+data/drug_release/78..csv,zero_order,[5.629],14.138799061102423
+data/drug_release/78..csv,first_order,[0.147],7.25526530552798
+data/drug_release/78..csv,higuchi,[23.081],7.545348747814928
+data/drug_release/78..csv,korsmeyer_Peppas,[18.781  0.576],7.260900220424831
+data/drug_release/78..csv,weibull,[25.301  1.612],2.4912746762007982
+data/drug_release/78..csv,reciprocal,[12.936  0.074],4.73800678617757
+data/drug_release/79..csv,zero_order,[4.839],26.29965814233072
+data/drug_release/79..csv,first_order,[0.247],2.95338827606147
+data/drug_release/79..csv,higuchi,[22.839],11.592175943896475
+data/drug_release/79..csv,korsmeyer_Peppas,[32.115  0.354],9.448812213207852
+data/drug_release/79..csv,weibull,[4.514 1.099],2.1961347429600577
+data/drug_release/79..csv,reciprocal,[34.133  0.322],4.700972972990802
+data/drug_release/80..csv,zero_order,[4.668],24.951104565552917
+data/drug_release/80..csv,first_order,[0.226],3.0845588473494945
+data/drug_release/80..csv,higuchi,[21.944],10.326041138050002
+data/drug_release/80..csv,korsmeyer_Peppas,[30.613  0.357],8.988241826816845
+data/drug_release/80..csv,weibull,[4.699 1.055],2.82746660201739
+data/drug_release/80..csv,reciprocal,[31.8    0.309],4.469574046955969
+data/drug_release/81..csv,zero_order,[4.234],22.229800563761096
+data/drug_release/81..csv,first_order,[0.187],3.860888750459384
+data/drug_release/81..csv,higuchi,[19.73],9.740079854881559
+data/drug_release/81..csv,korsmeyer_Peppas,[25.632  0.388],9.375006253844415
+data/drug_release/81..csv,weibull,[4.055 0.728],5.851845404017235
+data/drug_release/81..csv,reciprocal,[27.646  0.293],4.23790236919066
+data/drug_release/82..csv,zero_order,[4.685],25.87825796394535
+data/drug_release/82..csv,first_order,[0.236],3.1845426457624018
+data/drug_release/82..csv,higuchi,[22.157],11.000086558282097
+data/drug_release/82..csv,korsmeyer_Peppas,[30.562  0.362],9.952294801153894
+data/drug_release/82..csv,weibull,[3.934 0.933],3.246532002519163
+data/drug_release/82..csv,reciprocal,[34.418  0.34 ],3.8963054758079982
+data/drug_release/83..csv,zero_order,[2.194],14.699155757671019
+data/drug_release/83..csv,first_order,[0.067],4.067189122083212
+data/drug_release/83..csv,higuchi,[13.321],3.3955540961251076
+data/drug_release/83..csv,korsmeyer_Peppas,[14.469  0.473],3.4238040875286875
+data/drug_release/83..csv,weibull,[8.798 0.751],1.4663728399770704
+data/drug_release/83..csv,reciprocal,[9.272 0.088],1.146233401417522
+data/drug_release/84..csv,zero_order,[2.153],14.786972576057828
+data/drug_release/84..csv,first_order,[0.067],3.130059968402344
+data/drug_release/84..csv,higuchi,[13.084],5.136649835144469
+data/drug_release/84..csv,korsmeyer_Peppas,[13.873  0.481],5.169397171231191
+data/drug_release/84..csv,weibull,[9.553 0.781],2.6408656388115164
+data/drug_release/84..csv,reciprocal,[9.154 0.088],1.7075721733970488
+data/drug_release/85..csv,zero_order,[2.546],22.36697831413653
+data/drug_release/85..csv,first_order,[0.126],6.114653022542598
+data/drug_release/85..csv,higuchi,[16.319],7.376539037724048
+data/drug_release/85..csv,korsmeyer_Peppas,[25.639  0.349],3.266610423026275
+data/drug_release/85..csv,weibull,[4.208 0.616],1.8464579149140954
+data/drug_release/85..csv,reciprocal,[18.857  0.187],3.2846629163124916
+data/drug_release/86..csv,zero_order,[4.643],25.68725410495712
+data/drug_release/86..csv,first_order,[0.241],3.305880587923159
+data/drug_release/86..csv,higuchi,[22.187],10.16609662288949
+data/drug_release/86..csv,korsmeyer_Peppas,[32.643  0.335],8.134318632272889
+data/drug_release/86..csv,weibull,[3.415 0.818],3.3483940448218514
+data/drug_release/86..csv,reciprocal,[36.416  0.366],3.2953274877619982
+data/drug_release/87..csv,zero_order,[5.655],34.908887896240785
+data/drug_release/87..csv,first_order,[0.396],2.8708311034761724
+data/drug_release/87..csv,higuchi,[27.675],15.618521507707545
+data/drug_release/87..csv,korsmeyer_Peppas,[43.337  0.308],12.430910939318085
+data/drug_release/87..csv,weibull,[2.817 1.117],2.9868742705471427
+data/drug_release/87..csv,reciprocal,[53.488  0.453],5.285136723901878
+data/drug_release/88..csv,zero_order,[5.864],40.85795949284724
+data/drug_release/88..csv,first_order,[0.52],3.1589312649158914
+data/drug_release/88..csv,higuchi,[29.519],19.892437990453097
+data/drug_release/88..csv,korsmeyer_Peppas,[51.147  0.263],13.282796203369786
+data/drug_release/88..csv,weibull,[2.137 1.138],2.7162840206123122
+data/drug_release/88..csv,reciprocal,[72.882  0.62 ],5.652972286211098
+data/drug_release/89..csv,zero_order,[2.224],14.456826970021977
+data/drug_release/89..csv,first_order,[0.066],3.5858295408897165
+data/drug_release/89..csv,higuchi,[13.265],4.454841066649418
+data/drug_release/89..csv,korsmeyer_Peppas,[13.403  0.497],4.46858821927484
+data/drug_release/89..csv,weibull,[9.639 0.786],1.962615020872282
+data/drug_release/89..csv,reciprocal,[8.911 0.083],1.2845344111964037
+data/drug_release/91..csv,zero_order,[2.193],15.143290522097717
+data/drug_release/91..csv,first_order,[0.069],3.095635745957341
+data/drug_release/91..csv,higuchi,[13.177],5.806169462347448
+data/drug_release/91..csv,korsmeyer_Peppas,[13.665  0.488],5.814563187837888
+data/drug_release/91..csv,weibull,[9.71  0.795],2.9495046941856486
+data/drug_release/91..csv,reciprocal,[9.242 0.088],2.0846030597631393
+data/drug_release/92..csv,zero_order,[2.245],15.270211331911641
+data/drug_release/92..csv,first_order,[0.071],2.6024935826096796
+data/drug_release/92..csv,higuchi,[13.488],5.502460397770211
+data/drug_release/92..csv,korsmeyer_Peppas,[13.996  0.488],5.497290680212792
+data/drug_release/92..csv,weibull,[9.82  0.817],2.4688035666015384
+data/drug_release/92..csv,reciprocal,[9.314 0.086],1.7566307527914795
+data/drug_release/94..csv,zero_order,[0.511],0.8509969037126337
+data/drug_release/94..csv,first_order,[0.005],0.8438963069125238
+data/drug_release/94..csv,higuchi,[1.271],0.3613180718925836
+data/drug_release/94..csv,korsmeyer_Peppas,[1.742 0.286],0.12221014033476589
+data/drug_release/94..csv,weibull,[56.872  0.289],0.12195695650636224
+data/drug_release/94..csv,reciprocal,[3.573 1.071],0.10152027774037255
+data/drug_release/95..csv,zero_order,[0.432],0.5211992797349856
+data/drug_release/95..csv,first_order,[0.004],0.515991664199609
+data/drug_release/95..csv,higuchi,[1.038],0.1573372527913716
+data/drug_release/95..csv,korsmeyer_Peppas,[1.102 0.461],0.15114310665860461
+data/drug_release/95..csv,weibull,[90.328  0.465],0.15058413501113183
+data/drug_release/95..csv,reciprocal,[1.451 0.408],0.1384929561473352
+data/drug_release/96..csv,zero_order,[0.139],0.12857803294186707
+data/drug_release/96..csv,first_order,[0.001],0.12804419748561924
+data/drug_release/96..csv,higuchi,[0.329],0.030504708718931045
+data/drug_release/96..csv,korsmeyer_Peppas,[0.311 0.538],0.02917561097673825
+data/drug_release/96..csv,weibull,[300.      0.501],0.028859922888399614
+data/drug_release/96..csv,reciprocal,[0.363 0.275],0.02308735014229133
+data/drug_release/97..csv,zero_order,[0.197],0.19313589931101896
+data/drug_release/97..csv,first_order,[0.002],0.19206154796208796
+data/drug_release/97..csv,higuchi,[0.469],0.032383896014181804
+data/drug_release/97..csv,korsmeyer_Peppas,[0.462 0.509],0.03386694002275096
+data/drug_release/97..csv,weibull,[215.908   0.511],0.033821509163846575
+data/drug_release/97..csv,reciprocal,[0.551 0.308],0.03806942684000578
+data/drug_release/98..csv,zero_order,[2.458],23.023515692793076
+data/drug_release/98..csv,first_order,[0.141],6.590891471508005
+data/drug_release/98..csv,higuchi,[16.166],9.293684751382873
+data/drug_release/98..csv,korsmeyer_Peppas,[28.735  0.306],4.0907499718824685
+data/drug_release/98..csv,weibull,[3.521 0.543],1.9269481528696426
+data/drug_release/98..csv,reciprocal,[23.794  0.258],2.314089818163341
+data/drug_release/99..csv,zero_order,[2.179],15.349752817242953
+data/drug_release/99..csv,first_order,[0.065],4.055105891356019
+data/drug_release/99..csv,higuchi,[13.25],4.6347926204833145
+data/drug_release/99..csv,korsmeyer_Peppas,[13.776  0.488],4.591630916992644
+data/drug_release/99..csv,weibull,[9.434 0.776],1.923949509380935
+data/drug_release/99..csv,reciprocal,[8.967 0.084],1.2370144824422205
+data/drug_release/100..csv,zero_order,[2.149],14.461651844801374
+data/drug_release/100..csv,first_order,[0.065],2.9472352332334193
+data/drug_release/100..csv,higuchi,[12.956],5.194014605434094
+data/drug_release/100..csv,korsmeyer_Peppas,[13.361  0.49 ],5.2180087504558434
+data/drug_release/100..csv,weibull,[10.056  0.793],2.7098974030765315
+data/drug_release/100..csv,reciprocal,[8.777 0.083],1.854035106113688
+data/drug_release/101..csv,zero_order,[3.467],5.341183781935995
+data/drug_release/101..csv,first_order,[0.054],1.2787784329161198
+data/drug_release/101..csv,higuchi,[14.081],3.3190337887634964
+data/drug_release/101..csv,korsmeyer_Peppas,[8.848 0.671],0.16096506363558283
+data/drug_release/101..csv,weibull,[15.472  0.935],1.140797247619131
+data/drug_release/101..csv,reciprocal,[5.945 0.04 ],1.099492317687507
+data/drug_release/102..csv,zero_order,[3.133],4.743685753524157
+data/drug_release/102..csv,first_order,[0.047],1.276324093275438
+data/drug_release/102..csv,higuchi,[12.723],3.1237375741817504
+data/drug_release/102..csv,korsmeyer_Peppas,[7.89  0.676],0.2169964172042338
+data/drug_release/102..csv,weibull,[16.461  0.901],0.8846184659502295
+data/drug_release/102..csv,reciprocal,[5.326 0.039],1.0094737025120597
+data/drug_release/103..csv,zero_order,[3.396],4.034543196167695
+data/drug_release/103..csv,first_order,[0.052],1.0445464812970429
+data/drug_release/103..csv,higuchi,[13.705],4.596320473417482
+data/drug_release/103..csv,korsmeyer_Peppas,[7.079 0.742],0.44542579617528616
+data/drug_release/103..csv,weibull,[20.878  1.032],0.9544720989792432
+data/drug_release/103..csv,reciprocal,[5.083 0.028],0.6183162303544926
+data/drug_release/104..csv,zero_order,[5.758],31.522969077741337
+data/drug_release/104..csv,first_order,[0.458],3.824931384582738
+data/drug_release/104..csv,higuchi,[24.929],17.17286392403719
+data/drug_release/104..csv,korsmeyer_Peppas,[59.62   0.173],5.9641212062001765
+data/drug_release/104..csv,weibull,[1.58  0.673],2.574759627617151
+data/drug_release/104..csv,reciprocal,[91.592  0.89 ],2.195868206112898
+data/drug_release/105..csv,zero_order,[4.577],11.51527394992158
+data/drug_release/105..csv,first_order,[0.096],2.1088803573190757
+data/drug_release/105..csv,higuchi,[18.886],1.121680009772514
+data/drug_release/105..csv,korsmeyer_Peppas,[18.358  0.511],1.2024610524111257
+data/drug_release/105..csv,weibull,[7.58 0.87],1.3604639656846576
+data/drug_release/105..csv,reciprocal,[12.11   0.095],1.2947208236691643
+data/drug_release/106..csv,zero_order,[1.656],2.7453605978876916
+data/drug_release/106..csv,first_order,[0.02],2.061754220225595
+data/drug_release/106..csv,higuchi,[6.341],3.6585274758418262
+data/drug_release/106..csv,korsmeyer_Peppas,[3.068 0.783],2.0849111247238308
+data/drug_release/106..csv,weibull,[37.623  0.898],1.9036129356044087
+data/drug_release/106..csv,reciprocal,[2.499 0.028],1.6920615975053475
+data/drug_release/107..csv,zero_order,[3.53],5.812057800023244
+data/drug_release/107..csv,first_order,[0.056],1.9021788234891883
+data/drug_release/107..csv,higuchi,[13.721],4.7968450998479755
+data/drug_release/107..csv,korsmeyer_Peppas,[8.171 0.703],0.8983418969700077
+data/drug_release/107..csv,weibull,[16.943  0.981],1.855246452898545
+data/drug_release/107..csv,reciprocal,[5.738 0.035],1.6344710539404375
+data/drug_release/108..csv,zero_order,[4.701],7.951806664906653
+data/drug_release/108..csv,first_order,[0.089],4.394592500362227
+data/drug_release/108..csv,higuchi,[18.168],8.446250540803838
+data/drug_release/108..csv,korsmeyer_Peppas,[10.257  0.724],4.54519659322114
+data/drug_release/108..csv,weibull,[25.61   1.383],1.2395833852253317
+data/drug_release/108..csv,reciprocal,[7.821 0.037],2.5064411421867328
+data/drug_release/109..csv,zero_order,[3.556],0.9635407715431821
+data/drug_release/109..csv,first_order,[0.052],5.721914374475669
+data/drug_release/109..csv,higuchi,[13.168],10.6259477486081
+data/drug_release/109..csv,korsmeyer_Peppas,[3.279 1.028],0.6626163591385098
+data/drug_release/109..csv,weibull,[74.538  1.539],2.3262579030452804
+data/drug_release/109..csv,reciprocal,[ 3.421 -0.002],0.6970627837776416
+data/drug_release/110..csv,zero_order,[3.512],5.349848914325053
+data/drug_release/110..csv,first_order,[0.056],1.91390641320659
+data/drug_release/110..csv,higuchi,[13.663],4.744445162626873
+data/drug_release/110..csv,korsmeyer_Peppas,[7.679 0.724],0.766799045169998
+data/drug_release/110..csv,weibull,[18.783  1.019],1.9639607620154058
+data/drug_release/110..csv,reciprocal,[5.448 0.03 ],1.5797710235981182
+data/drug_release/111..csv,zero_order,[2.831],6.258957985690953
+data/drug_release/111..csv,first_order,[0.042],2.8236220932511045
+data/drug_release/111..csv,higuchi,[11.195],2.586901616211961
+data/drug_release/111..csv,korsmeyer_Peppas,[8.139 0.626],1.090031974394419
+data/drug_release/111..csv,weibull,[14.281  0.795],1.0207635731654163
+data/drug_release/111..csv,reciprocal,[5.565 0.054],1.2220561032228296
+data/drug_release/112..csv,zero_order,[3.516],5.380353455519635
+data/drug_release/112..csv,first_order,[0.056],1.3924420757202973
+data/drug_release/112..csv,higuchi,[14.286],3.4395712763302235
+data/drug_release/112..csv,korsmeyer_Peppas,[8.935 0.672],0.19414003212807956
+data/drug_release/112..csv,weibull,[15.448  0.943],1.293321554346369
+data/drug_release/112..csv,reciprocal,[5.996 0.04 ],1.1998512402398738
+data/drug_release/113..csv,zero_order,[3.138],5.931519070760965
+data/drug_release/113..csv,first_order,[0.047],2.3620080770232197
+data/drug_release/113..csv,higuchi,[12.821],1.9957468672408902
+data/drug_release/113..csv,korsmeyer_Peppas,[9.685 0.603],0.4027238142004228
+data/drug_release/113..csv,weibull,[12.394  0.799],1.010131074133782
+data/drug_release/113..csv,reciprocal,[6.281 0.057],1.4527514065721006
+data/drug_release/114..csv,zero_order,[3.162],5.273187820575601
+data/drug_release/114..csv,first_order,[0.047],1.3588169920329778
+data/drug_release/114..csv,higuchi,[12.861],2.880924283114002
+data/drug_release/114..csv,korsmeyer_Peppas,[8.366 0.658],0.5928465685546565
+data/drug_release/114..csv,weibull,[15.482  0.884],0.44387927211149686
+data/drug_release/114..csv,reciprocal,[5.635 0.044],0.6179299429835347
+data/drug_release/115..csv,zero_order,[3.501],4.5398560534425885
+data/drug_release/115..csv,first_order,[0.055],1.130810123491008
+data/drug_release/115..csv,higuchi,[14.173],4.349795808987312
+data/drug_release/115..csv,korsmeyer_Peppas,[7.793 0.719],0.28482047267642085
+data/drug_release/115..csv,weibull,[18.779  1.012],1.1189742220028798
+data/drug_release/115..csv,reciprocal,[5.466 0.031],0.8264207567509976
+data/drug_release/116..csv,zero_order,[3.507],4.751750085834783
+data/drug_release/116..csv,first_order,[0.055],1.1691890892602428
+data/drug_release/116..csv,higuchi,[14.217],4.03994822493787
+data/drug_release/116..csv,korsmeyer_Peppas,[8.073 0.708],0.22422684287435657
+data/drug_release/116..csv,weibull,[17.893  0.995],1.1683638293180976
+data/drug_release/116..csv,reciprocal,[5.59  0.033],0.9249609589296632
+data/drug_release/117..csv,zero_order,[3.432],5.589306600103797
+data/drug_release/117..csv,first_order,[0.054],1.322294329445798
+data/drug_release/117..csv,higuchi,[13.985],3.1853170533204263
+data/drug_release/117..csv,korsmeyer_Peppas,[9.084 0.658],0.24302498834668337
+data/drug_release/117..csv,weibull,[14.81   0.915],1.073057916379228
+data/drug_release/117..csv,reciprocal,[6.057 0.043],1.1126257149495884
+data/drug_release/118..csv,zero_order,[3.673],6.895772546114346
+data/drug_release/118..csv,first_order,[0.061],1.466715974068341
+data/drug_release/118..csv,higuchi,[15.022],2.5789474317035697
+data/drug_release/118..csv,korsmeyer_Peppas,[10.859  0.619],0.934313457569688
+data/drug_release/118..csv,weibull,[12.42   0.893],0.8681750754990023
+data/drug_release/118..csv,reciprocal,[7.276 0.055],0.9214161848902959
+data/drug_release/119..csv,zero_order,[4.015],10.915478248172382
+data/drug_release/119..csv,first_order,[0.075],4.077418760226561
+data/drug_release/119..csv,higuchi,[16.639],1.3645816177557135
+data/drug_release/119..csv,korsmeyer_Peppas,[17.519  0.481],1.0765426250755932
+data/drug_release/119..csv,weibull,[6.705 0.727],0.7899761262949528
+data/drug_release/119..csv,reciprocal,[11.875  0.113],1.4291152416253357
+data/drug_release/120..csv,zero_order,[4.318],13.118972194214807
+data/drug_release/120..csv,first_order,[0.088],4.41367154548763
+data/drug_release/120..csv,higuchi,[17.973],2.5729093559961917
+data/drug_release/120..csv,korsmeyer_Peppas,[20.778  0.446],1.5728300670053779
+data/drug_release/120..csv,weibull,[5.586 0.713],0.8471825538729603
+data/drug_release/120..csv,reciprocal,[14.654  0.139],1.4900037586983013
+data/drug_release/121..csv,zero_order,[3.51],5.45369195611451
+data/drug_release/121..csv,first_order,[0.056],1.082626783084545
+data/drug_release/121..csv,higuchi,[14.255],3.578041316876247
+data/drug_release/121..csv,korsmeyer_Peppas,[8.902 0.673],0.458016200275182
+data/drug_release/121..csv,weibull,[15.539  0.945],1.0072902546727414
+data/drug_release/121..csv,reciprocal,[6.048 0.041],0.9196455445492248
+data/drug_release/122..csv,zero_order,[1.044],1.023012920995623
+data/drug_release/122..csv,first_order,[0.012],0.9240212023762192
+data/drug_release/122..csv,higuchi,[3.881],2.9579892749643526
+data/drug_release/122..csv,korsmeyer_Peppas,[1.21  0.948],1.0116696338245161
+data/drug_release/122..csv,weibull,[92.634  1.027],0.9304990280392289
+data/drug_release/122..csv,reciprocal,[1.183 0.007],0.9155471045580806
+data/drug_release/123..csv,zero_order,[2.031],2.6011037212617203
+data/drug_release/123..csv,first_order,[0.026],1.5035563624731505
+data/drug_release/123..csv,higuchi,[7.799],3.585401867668845
+data/drug_release/123..csv,korsmeyer_Peppas,[3.976 0.763],1.1623834543895601
+data/drug_release/123..csv,weibull,[29.24   0.895],1.1415471129319614
+data/drug_release/123..csv,reciprocal,[3.006 0.026],1.1874124039707397
+data/drug_release/124..csv,zero_order,[3.495],5.496425540580846
+data/drug_release/124..csv,first_order,[0.055],1.7589055867094527
+data/drug_release/124..csv,higuchi,[13.522],5.432580200754684
+data/drug_release/124..csv,korsmeyer_Peppas,[7.595 0.726],1.2522984134030462
+data/drug_release/124..csv,weibull,[18.514  1.011],1.7779714640124809
+data/drug_release/124..csv,reciprocal,[5.532 0.032],1.4688255066024802
+data/drug_release/125..csv,zero_order,[4.695],13.74007266978143
+data/drug_release/125..csv,first_order,[0.102],2.1967669193191655
+data/drug_release/125..csv,higuchi,[18.863],2.4261054203312034
+data/drug_release/125..csv,korsmeyer_Peppas,[17.016  0.541],2.4681995689621803
+data/drug_release/125..csv,weibull,[8.166 0.911],1.9538854511988437
+data/drug_release/125..csv,reciprocal,[11.833  0.088],1.5986379613044226
+data/drug_release/126..csv,zero_order,[10.27],0.4159077804034324
+data/drug_release/126..csv,first_order,[0.108],0.35482745009565236
+data/drug_release/126..csv,higuchi,[8.99],0.8504013909144945
+data/drug_release/126..csv,korsmeyer_Peppas,[9.962 0.824],0.15902061922166688
+data/drug_release/126..csv,weibull,[9.528 0.854],0.1472644895144386
+data/drug_release/126..csv,reciprocal,[13.278  0.332],0.14700035615021947
+data/drug_release/127..csv,zero_order,[5.391],9.23045835676966
+data/drug_release/127..csv,first_order,[0.081],6.619121917808266
+data/drug_release/127..csv,higuchi,[15.724],1.8593854727783456
+data/drug_release/127..csv,korsmeyer_Peppas,[17.656  0.434],1.4024788270245616
+data/drug_release/127..csv,weibull,[5.18  0.524],1.5276135603408882
+data/drug_release/127..csv,reciprocal,[22.147  0.376],3.03239255721744
+data/drug_release/131..csv,zero_order,[5.025],8.950617515826615
+data/drug_release/131..csv,first_order,[0.073],6.653474834849609
+data/drug_release/131..csv,higuchi,[14.714],1.8990279825034155
+data/drug_release/131..csv,korsmeyer_Peppas,[16.991  0.418],1.4477360363950245
+data/drug_release/131..csv,weibull,[5.391 0.497],1.5442685547632928
+data/drug_release/131..csv,reciprocal,[21.8    0.406],2.901732946952923
+data/drug_release/132..csv,zero_order,[6.37],15.8332945720692
+data/drug_release/132..csv,first_order,[0.116],12.552490974354747
+data/drug_release/132..csv,higuchi,[19.511],6.7050967848328265
+data/drug_release/132..csv,korsmeyer_Peppas,[28.587  0.274],0.9904553006784524
+data/drug_release/132..csv,weibull,[2.962 0.354],0.8337909968220135
+data/drug_release/132..csv,reciprocal,[66.597  1.225],2.307292842648977
+data/drug_release/133..csv,zero_order,[9.709],27.796151194734275
+data/drug_release/133..csv,first_order,[0.559],14.237044052562608
+data/drug_release/133..csv,higuchi,[30.447],14.426105597417445
+data/drug_release/133..csv,korsmeyer_Peppas,[49.482  0.208],2.2417277340259356
+data/drug_release/133..csv,weibull,[1.444 0.35 ],2.0697231847214357
+data/drug_release/133..csv,reciprocal,[163.382   2.089],2.5829869403141035
+data/drug_release/134..csv,zero_order,[9.519],22.56471919731286
+data/drug_release/134..csv,first_order,[0.311],9.897814078090278
+data/drug_release/134..csv,higuchi,[29.059],10.08680018311178
+data/drug_release/134..csv,korsmeyer_Peppas,[40.491  0.326],6.229990687042577
+data/drug_release/134..csv,weibull,[1.93  0.562],3.6779321441134285
+data/drug_release/134..csv,reciprocal,[79.69   0.884],2.6488090524424277
+data/drug_release/135..csv,zero_order,[12.01],34.63622805959898
+data/drug_release/135..csv,first_order,[1.22],3.486582102847767
+data/drug_release/135..csv,higuchi,[37.646],19.415968433661217
+data/drug_release/135..csv,korsmeyer_Peppas,[63.047  0.23 ],10.254221035666072
+data/drug_release/135..csv,weibull,[0.808 0.753],2.9482012453028354
+data/drug_release/135..csv,reciprocal,[259.999   2.524],1.3908544487261778
+data/drug_release/136..csv,zero_order,[9.758],21.598145703108248
+data/drug_release/136..csv,first_order,[0.31],7.6394099746939785
+data/drug_release/136..csv,higuchi,[29.576],8.512791449533443
+data/drug_release/136..csv,korsmeyer_Peppas,[40.062  0.341],4.879876480194041
+data/drug_release/136..csv,weibull,[2.012 0.605],2.1762143556443863
+data/drug_release/136..csv,reciprocal,[64.163  0.663],1.6839406194156792
+data/drug_release/137..csv,zero_order,[12.442],39.76974798227519
+data/drug_release/137..csv,first_order,[2.374],2.0930645452579504
+data/drug_release/137..csv,higuchi,[39.57],24.644778248088528
+data/drug_release/137..csv,korsmeyer_Peppas,[69.532  0.205],14.733657813997073
+data/drug_release/137..csv,weibull,[0.366 1.667],0.8061687027205805
+data/drug_release/137..csv,reciprocal,[436.006   4.122],4.300493520149402
+data/drug_release/138..csv,zero_order,[8.283],15.57591991977923
+data/drug_release/138..csv,first_order,[0.179],7.184571572585237
+data/drug_release/138..csv,higuchi,[24.803],4.1417496386048835
+data/drug_release/138..csv,korsmeyer_Peppas,[33.322  0.346],1.5756566475010187
+data/drug_release/138..csv,weibull,[2.612 0.535],1.6887984156898053
+data/drug_release/138..csv,reciprocal,[42.033  0.482],2.9423713872319945
+data/drug_release/139..csv,zero_order,[12.324],38.83669414029574
+data/drug_release/139..csv,first_order,[2.134],1.6542283485763971
+data/drug_release/139..csv,higuchi,[39.157],23.824532211946977
+data/drug_release/139..csv,korsmeyer_Peppas,[68.822  0.206],13.801757520324767
+data/drug_release/139..csv,weibull,[0.492 4.897],1.0332430902403187
+data/drug_release/139..csv,reciprocal,[448.643   4.298],3.2589697708694407
+data/drug_release/140..csv,zero_order,[10.825],27.635725443828054
+data/drug_release/140..csv,first_order,[0.585],7.421696741626822
+data/drug_release/140..csv,higuchi,[33.424],13.461481699182064
+data/drug_release/140..csv,korsmeyer_Peppas,[51.161  0.277],6.834616448163759
+data/drug_release/140..csv,weibull,[1.34  0.585],3.1695673048521127
+data/drug_release/140..csv,reciprocal,[122.853   1.248],1.9847673750587915
+data/drug_release/141..csv,zero_order,[12.372],39.7153849802343
+data/drug_release/141..csv,first_order,[2.597],0.5889164922390384
+data/drug_release/141..csv,higuchi,[39.448],23.914634589912186
+data/drug_release/141..csv,korsmeyer_Peppas,[94.743  0.026],0.861876545373499
+data/drug_release/141..csv,weibull,[0.372 0.463],0.3150598375266246
+data/drug_release/141..csv,reciprocal,[1236.261   12.226],0.4273780643087934
+data/drug_release/173..csv,zero_order,[1.551],26.167130478002505
+data/drug_release/173..csv,first_order,[0.074],10.064506173058684
+data/drug_release/173..csv,higuchi,[12.136],12.782230078301339
+data/drug_release/173..csv,korsmeyer_Peppas,[26.345  0.281],5.526826228015393
+data/drug_release/173..csv,weibull,[3.93  0.471],3.1074830511423
+data/drug_release/173..csv,reciprocal,[17.446  0.208],1.4373511741379243
+data/drug_release/174..csv,zero_order,[0.961],17.329921788145512
+data/drug_release/174..csv,first_order,[0.018],14.679969779050058
+data/drug_release/174..csv,higuchi,[7.612],8.929909384067631
+data/drug_release/174..csv,korsmeyer_Peppas,[17.446  0.266],4.290104337365697
+data/drug_release/174..csv,weibull,[5.53  0.341],3.7548968989374742
+data/drug_release/174..csv,reciprocal,[12.372  0.239],1.0917434116853622
+data/drug_release/175..csv,zero_order,[6738.478],25.43353766501832
+data/drug_release/175..csv,first_order,[213.916],15.020895624200875
+data/drug_release/175..csv,higuchi,[758.83],14.383704419788202
+data/drug_release/175..csv,korsmeyer_Peppas,[154.234   0.155],4.52453936313769
+data/drug_release/175..csv,weibull,[0.184 0.289],3.853233045648552
+data/drug_release/175..csv,reciprocal,[202912.324   2603.505],0.49353588881718463
+data/drug_release/176..csv,zero_order,[7721.323],26.04248101531757
+data/drug_release/176..csv,first_order,[340.298],8.456944276043059
+data/drug_release/176..csv,higuchi,[863.681],13.160084344369052
+data/drug_release/176..csv,korsmeyer_Peppas,[222.805   0.206],3.8903931115984944
+data/drug_release/176..csv,weibull,[0.056 0.466],1.9505105753563896
+data/drug_release/176..csv,reciprocal,[95517.809  1000.375],0.4349956363214965
+data/drug_release/177..csv,zero_order,[975.757],1.998972470906607
+data/drug_release/177..csv,first_order,[10.488],1.851438225510799
+data/drug_release/177..csv,higuchi,[106.636],0.4088127584945368
+data/drug_release/177..csv,korsmeyer_Peppas,[75.258  0.423],0.3134011436532737
+data/drug_release/177..csv,weibull,[1.13  0.446],0.30326021374414097
+data/drug_release/177..csv,reciprocal,[2987.683  172.612],0.18166691276786373
+data/drug_release/178..csv,zero_order,[592.764],1.426046659294036
+data/drug_release/178..csv,first_order,[6.19],1.3753791169778375
+data/drug_release/178..csv,higuchi,[65.036],0.45770784057690495
+data/drug_release/178..csv,korsmeyer_Peppas,[28.703  0.321],0.12079994814238353
+data/drug_release/178..csv,weibull,[3.222 0.331],0.11923563097919275
+data/drug_release/178..csv,reciprocal,[2704.431  305.746],0.15816229436453638
+data/drug_release/179..csv,zero_order,[1330.392],2.7119547536398714
+data/drug_release/179..csv,first_order,[14.713],2.4343001432184934
+data/drug_release/179..csv,higuchi,[145.175],0.5721839560840637
+data/drug_release/179..csv,korsmeyer_Peppas,[113.56    0.446],0.49726904028038044
+data/drug_release/179..csv,weibull,[0.698 0.479],0.48023398801659056
+data/drug_release/179..csv,reciprocal,[3911.511  162.053],0.40359405035316337
+data/drug_release/183..csv,zero_order,[186.329],5.079239121138874
+data/drug_release/183..csv,first_order,[2.522],3.0761556048224117
+data/drug_release/183..csv,higuchi,[81.134],2.3688430349469125
+data/drug_release/183..csv,korsmeyer_Peppas,[104.17    0.632],0.6526958742594996
+data/drug_release/183..csv,weibull,[0.618 0.753],0.3624414438462617
+data/drug_release/183..csv,reciprocal,[376.619   4.671],0.6838614427795161
+data/drug_release/184..csv,zero_order,[461.103],35.81213707710143
+data/drug_release/184..csv,first_order,[26.066],8.245126344219905
+data/drug_release/184..csv,higuchi,[225.798],16.857227680823126
+data/drug_release/184..csv,korsmeyer_Peppas,[129.146   0.222],3.9055187602170585
+data/drug_release/184..csv,weibull,[0.191 0.498],0.886150184323275
+data/drug_release/184..csv,reciprocal,[5790.434   60.717],1.6694647028241847
+data/drug_release/185..csv,zero_order,[501.187],47.12501378310949
+data/drug_release/185..csv,first_order,[85.179],11.377480709465383
+data/drug_release/185..csv,higuchi,[251.857],26.690397322496096
+data/drug_release/185..csv,korsmeyer_Peppas,[116.419   0.122],4.08392187749451
+data/drug_release/185..csv,weibull,[0.226 0.297],1.7892572472535593
+data/drug_release/185..csv,reciprocal,[31785.897   351.641],2.339682628392213
+data/drug_release/189..csv,zero_order,[452.03],32.832319266890664
+data/drug_release/189..csv,first_order,[21.919],5.971937325131327
+data/drug_release/189..csv,higuchi,[219.019],14.087346077927105
+data/drug_release/189..csv,korsmeyer_Peppas,[137.01    0.264],5.7707938688917855
+data/drug_release/189..csv,weibull,[0.149 0.621],2.3668690403609354
+data/drug_release/189..csv,reciprocal,[3994.826   39.98 ],1.1875713088568092
+data/drug_release/190..csv,zero_order,[535.392],51.70966367752863
+data/drug_release/190..csv,first_order,[96.11],3.522020825483054
+data/drug_release/190..csv,higuchi,[272.845],30.209232421860296
+data/drug_release/190..csv,korsmeyer_Peppas,[135.266   0.152],8.785652270826525
+data/drug_release/190..csv,weibull,[0.031 0.755],2.105495548289261
+data/drug_release/190..csv,reciprocal,[18561.726   178.868],1.8761490699265375
+data/drug_release/191..csv,zero_order,[529.151],55.93852533701473
+data/drug_release/191..csv,first_order,[181.435],2.5141574371879982
+data/drug_release/191..csv,higuchi,[275.932],34.90140499226247
+data/drug_release/191..csv,korsmeyer_Peppas,[131.099   0.119],8.950557174603743
+data/drug_release/191..csv,weibull,[0.011 0.859],2.3751320810642214
+data/drug_release/191..csv,reciprocal,[34889.691   333.004],1.77072513518314
+data/drug_release/197..csv,zero_order,[612.408],3.061015843395508
+data/drug_release/197..csv,first_order,[6.723],2.8516730187887878
+data/drug_release/197..csv,higuchi,[94.746],0.9982356110712796
+data/drug_release/197..csv,korsmeyer_Peppas,[51.823  0.346],0.3711879722566979
+data/drug_release/197..csv,weibull,[1.647 0.368],0.3555336110843243
+data/drug_release/197..csv,reciprocal,[2920.626  163.359],0.2272587103579456
+data/drug_release/198..csv,zero_order,[3167.312],25.948758450803883
+data/drug_release/198..csv,first_order,[89.407],17.707565944449666
+data/drug_release/198..csv,higuchi,[509.231],15.597624663110357
+data/drug_release/198..csv,korsmeyer_Peppas,[118.028   0.129],5.0559973341050135
+data/drug_release/198..csv,weibull,[0.308 0.239],4.977236691949743
+data/drug_release/198..csv,reciprocal,[118920.965   1620.555],2.0175432474323953
+data/drug_release/199..csv,zero_order,[3773.692],32.445621154638864
+data/drug_release/199..csv,first_order,[686.715],14.112389377378227
+data/drug_release/199..csv,higuchi,[611.701],20.03118685522045
+data/drug_release/199..csv,korsmeyer_Peppas,[132.789   0.11 ],6.778557197161336
+data/drug_release/199..csv,weibull,[0.151 0.293],6.384085642322487
+data/drug_release/199..csv,reciprocal,[274069.258   3149.266],2.438990455676007
+data/drug_release/200..csv,zero_order,[3875.697],33.15794958026494
+data/drug_release/200..csv,first_order,[793.101],13.603503885378245
+data/drug_release/200..csv,higuchi,[624.29],20.606170775535976
+data/drug_release/200..csv,korsmeyer_Peppas,[134.132   0.11 ],6.819427153052635
+data/drug_release/200..csv,weibull,[0.134 0.31 ],6.567194257122768
+data/drug_release/200..csv,reciprocal,[211921.434   2388.708],3.039589386457106
+data/drug_release/203..csv,zero_order,[7.492],52.98179496853825
+data/drug_release/203..csv,first_order,[2.549],3.66001630120644
+data/drug_release/203..csv,higuchi,[34.252],32.23678381612572
+data/drug_release/203..csv,korsmeyer_Peppas,[70.23   0.172],13.234144430950273
+data/drug_release/203..csv,weibull,[0.416 0.951],3.540028884864924
+data/drug_release/203..csv,reciprocal,[387.962   3.669],4.8491560673262155
+data/drug_release/205..csv,zero_order,[5.96],34.14238826639002
+data/drug_release/205..csv,first_order,[0.49],14.081844389469907
+data/drug_release/205..csv,higuchi,[25.72],17.75987777006038
+data/drug_release/205..csv,korsmeyer_Peppas,[46.317  0.231],5.88145487976439
+data/drug_release/205..csv,weibull,[1.582 0.417],4.35004955409031
+data/drug_release/205..csv,reciprocal,[133.19    1.614],2.9798498462371623
+data/drug_release/206..csv,zero_order,[4.403],24.40731936320257
+data/drug_release/206..csv,first_order,[0.158],13.967084765947817
+data/drug_release/206..csv,higuchi,[19.54],10.482971403667998
+data/drug_release/206..csv,korsmeyer_Peppas,[33.001  0.266],2.9498656248264226
+data/drug_release/206..csv,weibull,[2.531 0.392],1.7260160581556228
+data/drug_release/206..csv,reciprocal,[62.085  0.892],1.7692366729958557
+data/drug_release/207..csv,zero_order,[5.442],38.63931934215991
+data/drug_release/207..csv,first_order,[0.638],13.391205554432926
+data/drug_release/207..csv,higuchi,[25.198],21.658721816591385
+data/drug_release/207..csv,korsmeyer_Peppas,[55.518  0.155],7.226734513850791
+data/drug_release/207..csv,weibull,[1.273 0.342],5.79087320156855
+data/drug_release/207..csv,reciprocal,[187.729   2.254],2.3131386778829723
+data/drug_release/208..csv,zero_order,[5.885],42.63957772570106
+data/drug_release/208..csv,first_order,[0.663],9.260929380891124
+data/drug_release/208..csv,higuchi,[27.658],23.548767838553864
+data/drug_release/208..csv,korsmeyer_Peppas,[51.837  0.212],10.870463903153091
+data/drug_release/208..csv,weibull,[1.368 0.57 ],5.530320407949725
+data/drug_release/208..csv,reciprocal,[140.323   1.545],4.418689977240665
+data/drug_release/209..csv,zero_order,[1.506],12.982087572400037
+data/drug_release/209..csv,first_order,[0.02],12.171863837581295
+data/drug_release/209..csv,higuchi,[7.385],8.062940845228564
+data/drug_release/209..csv,korsmeyer_Peppas,[16.151  0.136],3.119986208539689
+data/drug_release/209..csv,weibull,[5.679 0.154],3.100698304973739
+data/drug_release/209..csv,reciprocal,[95.859  4.302],1.4406788873514917
+data/drug_release/210..csv,zero_order,[3.227],23.21282683247958
+data/drug_release/210..csv,first_order,[0.078],17.950708410798153
+data/drug_release/210..csv,higuchi,[14.949],13.061117077788724
+data/drug_release/210..csv,korsmeyer_Peppas,[29.786  0.187],4.273361878556911
+data/drug_release/210..csv,weibull,[2.823 0.245],3.961709427913041
+data/drug_release/210..csv,reciprocal,[131.236   2.843],1.3362398079814717
+data/drug_release/211..csv,zero_order,[4.189],29.97274980451136
+data/drug_release/211..csv,first_order,[0.142],24.13544965262495
+data/drug_release/211..csv,higuchi,[18.849],18.595908214598786
+data/drug_release/211..csv,korsmeyer_Peppas,[46.93   0.058],2.427874960797723
+data/drug_release/211..csv,weibull,[1.575 0.082],2.4473605057352166
+data/drug_release/211..csv,reciprocal,[721.671  13.733],2.596865397236358
+data/drug_release/213..csv,zero_order,[2.831],14.757528081144969
+data/drug_release/213..csv,first_order,[0.046],12.814879332278316
+data/drug_release/213..csv,higuchi,[12.216],8.05636903987258
+data/drug_release/213..csv,korsmeyer_Peppas,[22.961  0.21 ],3.6782150217175573
+data/drug_release/213..csv,weibull,[3.786 0.243],3.7197889837960396
+data/drug_release/213..csv,reciprocal,[99.651  2.777],4.883494484346108
+data/drug_release/214..csv,zero_order,[6.44],52.56388900873943
+data/drug_release/214..csv,first_order,[3.616],7.511481020440495
+data/drug_release/214..csv,higuchi,[31.202],33.84829830719138
+data/drug_release/214..csv,korsmeyer_Peppas,[75.374  0.102],8.14288857212915
+data/drug_release/214..csv,weibull,[0.542 0.515],3.999286370429594
+data/drug_release/214..csv,reciprocal,[711.834   7.476],2.6374930615184913
+data/drug_release/215..csv,zero_order,[6.685],51.868671715433024
+data/drug_release/215..csv,first_order,[2.142],7.180455251209901
+data/drug_release/215..csv,higuchi,[32.23],31.966369894769873
+data/drug_release/215..csv,korsmeyer_Peppas,[69.99   0.147],9.169941353149182
+data/drug_release/215..csv,weibull,[0.668 0.484],2.7880801433779143
+data/drug_release/215..csv,reciprocal,[481.981   5.011],2.3342608435533823
+data/drug_release/216..csv,zero_order,[1.937],14.17022150493321
+data/drug_release/216..csv,first_order,[0.028],12.516455502767935
+data/drug_release/216..csv,higuchi,[9.034],7.80407266310418
+data/drug_release/216..csv,korsmeyer_Peppas,[20.348  0.132],0.9145046044485864
+data/drug_release/216..csv,weibull,[4.401 0.153],0.8697263861300674
+data/drug_release/216..csv,reciprocal,[86.649  3.073],0.6857254643025459
+data/drug_release/217..csv,zero_order,[1.167],11.224074789312258
+data/drug_release/217..csv,first_order,[0.014],10.746227057430438
+data/drug_release/217..csv,higuchi,[5.943],7.517171930549088
+data/drug_release/217..csv,korsmeyer_Peppas,[13.818  0.113],2.5060096386689192
+data/drug_release/217..csv,weibull,[6.722 0.124],2.5063492430344407
+data/drug_release/217..csv,reciprocal,[119.908   6.663],1.228013216395751
+data/drug_release/218..csv,zero_order,[2.437],20.68430034054494
+data/drug_release/218..csv,first_order,[0.042],18.414419093233843
+data/drug_release/218..csv,higuchi,[11.814],12.972238279050828
+data/drug_release/218..csv,korsmeyer_Peppas,[26.793  0.127],4.056712330295187
+data/drug_release/218..csv,weibull,[3.198 0.156],4.028642700210418
+data/drug_release/218..csv,reciprocal,[289.078   8.348],1.4189648689375653
+data/drug_release/219..csv,zero_order,[0.508],5.5056638874683275
+data/drug_release/219..csv,first_order,[0.006],5.421516182381205
+data/drug_release/219..csv,higuchi,[2.65],3.847627375189452
+data/drug_release/219..csv,korsmeyer_Peppas,[6.689 0.082],1.4409635343858973
+data/drug_release/219..csv,weibull,[14.445  0.086],1.4403136319933056
+data/drug_release/219..csv,reciprocal,[79.727  9.732],0.8570547153095718
+data/drug_release/220..csv,zero_order,[3.515],21.05127924748841
+data/drug_release/220..csv,first_order,[0.086],14.555610513411057
+data/drug_release/220..csv,higuchi,[15.71],9.974760190801216
+data/drug_release/220..csv,korsmeyer_Peppas,[26.691  0.266],4.193936260090169
+data/drug_release/220..csv,weibull,[3.251 0.356],3.565042560864471
+data/drug_release/220..csv,reciprocal,[51.752  0.921],1.0597292225436155
+data/drug_release/221..csv,zero_order,[23.759],13.349300614177858
+data/drug_release/221..csv,first_order,[0.57],1.158293434739357
+data/drug_release/221..csv,higuchi,[43.892],4.490493728290533
+data/drug_release/221..csv,korsmeyer_Peppas,[42.038  0.543],4.191026342580729
+data/drug_release/221..csv,weibull,[1.71  0.942],0.5537078173178482
+data/drug_release/221..csv,reciprocal,[67.922  0.52 ],0.9358482111714486
+data/drug_release/222..csv,zero_order,[24.621],15.693210782461133
+data/drug_release/222..csv,first_order,[0.657],1.4821431772735498
+data/drug_release/222..csv,higuchi,[45.91],5.794176485497962
+data/drug_release/222..csv,korsmeyer_Peppas,[45.652  0.506],5.753545742371678
+data/drug_release/222..csv,weibull,[1.5   0.951],1.5607257693606569
+data/drug_release/222..csv,reciprocal,[80.92   0.643],2.1918966154149637
+data/drug_release/223..csv,zero_order,[20.792],13.858938283466903
+data/drug_release/223..csv,first_order,[0.454],5.392062521413416
+data/drug_release/223..csv,higuchi,[38.924],4.288783273652853
+data/drug_release/223..csv,korsmeyer_Peppas,[39.629  0.482],4.283322305445548
+data/drug_release/223..csv,weibull,[1.878 0.738],2.169790493794679
+data/drug_release/223..csv,reciprocal,[74.618  0.734],1.0144663288126934
+data/drug_release/224..csv,zero_order,[25.337],17.085129519395696
+data/drug_release/224..csv,first_order,[0.73],1.71242496519833
+data/drug_release/224..csv,higuchi,[47.499],5.397548580083535
+data/drug_release/224..csv,korsmeyer_Peppas,[48.487  0.479],5.441065917690612
+data/drug_release/224..csv,weibull,[1.348 0.916],0.8952890120871536
+data/drug_release/224..csv,reciprocal,[92.332  0.749],1.1405640445124854
+data/drug_release/225..csv,zero_order,[13.621],4.994166121812007
+data/drug_release/225..csv,first_order,[0.197],2.3155589012999815
+data/drug_release/225..csv,higuchi,[24.895],3.4671630488554688
+data/drug_release/225..csv,korsmeyer_Peppas,[21.032  0.66 ],1.4607704014522236
+data/drug_release/225..csv,weibull,[4.182 0.822],0.6362586630635875
+data/drug_release/225..csv,reciprocal,[27.554  0.276],0.23990082475898825
+data/drug_release/230..csv,zero_order,[0.466],15.872722383505172
+data/drug_release/230..csv,first_order,[0.009],11.490715765858837
+data/drug_release/230..csv,higuchi,[5.49],6.008712425070526
+data/drug_release/230..csv,korsmeyer_Peppas,[11.093  0.339],3.0720136604593584
+data/drug_release/230..csv,weibull,[9.683 0.434],2.7675883493231694
+data/drug_release/230..csv,reciprocal,[4.956 0.086],3.569498644719725
+data/drug_release/231..csv,zero_order,[0.634],37.09074835717276
+data/drug_release/231..csv,first_order,[0.043],24.22984600678816
+data/drug_release/231..csv,higuchi,[8.047],21.820745209195774
+data/drug_release/231..csv,korsmeyer_Peppas,[39.132  0.128],0.8807298451576386
+data/drug_release/231..csv,weibull,[2.059 0.197],1.5430675974088972
+data/drug_release/231..csv,reciprocal,[90.798  1.421],6.729688582588293
+data/drug_release/232..csv,zero_order,[0.707],43.87350723106223
+data/drug_release/232..csv,first_order,[0.193],19.599806987659115
+data/drug_release/232..csv,higuchi,[9.135],26.80202537170207
+data/drug_release/232..csv,korsmeyer_Peppas,[45.807  0.121],2.8203481728384867
+data/drug_release/232..csv,weibull,[1.741 0.223],2.346251126967128
+data/drug_release/232..csv,reciprocal,[66.908  0.88 ],4.103005416100385
+data/drug_release/233..csv,zero_order,[0.776],48.93529156505097
+data/drug_release/233..csv,first_order,[0.408],15.032017043952806
+data/drug_release/233..csv,higuchi,[10.044],30.506958670049798
+data/drug_release/233..csv,korsmeyer_Peppas,[52.423  0.113],4.055019824421235
+data/drug_release/233..csv,weibull,[1.453 0.242],3.5774242845458293
+data/drug_release/233..csv,reciprocal,[89.412  1.063],3.057629643613364
+data/drug_release/234..csv,zero_order,[0.916],15.999140889156838
+data/drug_release/234..csv,first_order,[0.021],7.959378800354869
+data/drug_release/234..csv,higuchi,[8.489],11.13772610653073
+data/drug_release/234..csv,korsmeyer_Peppas,[7.161 0.54 ],10.997067569586234
+data/drug_release/234..csv,weibull,[170.101   1.361],8.049620021122088
+data/drug_release/234..csv,reciprocal,[2.407 0.018],8.606022695085766
+data/drug_release/235..csv,zero_order,[1.702],16.635025007912343
+data/drug_release/235..csv,first_order,[0.039],11.985983616630925
+data/drug_release/235..csv,higuchi,[12.21],13.536107220054635
+data/drug_release/235..csv,korsmeyer_Peppas,[7.763 0.62 ],13.02390654017737
+data/drug_release/235..csv,weibull,[300.      1.753],6.562125066885309
+data/drug_release/235..csv,reciprocal,[3.416 0.018],11.278570686070918
+data/drug_release/236..csv,zero_order,[0.832],10.119473046634381
+data/drug_release/236..csv,first_order,[0.013],15.481631266234492
+data/drug_release/236..csv,higuchi,[7.076],19.974924787264754
+data/drug_release/236..csv,korsmeyer_Peppas,[0.459 1.131],9.399563700549578
+data/drug_release/236..csv,weibull,[300.      1.343],11.735480594145045
+data/drug_release/236..csv,reciprocal,[ 0.782 -0.001],9.954983920537227
+data/drug_release/237..csv,zero_order,[0.924],8.60762788309238
+data/drug_release/237..csv,first_order,[0.015],16.055640213761023
+data/drug_release/237..csv,higuchi,[8.014],19.451534325595077
+data/drug_release/237..csv,korsmeyer_Peppas,[0.592 1.098],8.014082577375099
+data/drug_release/237..csv,weibull,[300.      1.382],12.232337468632235
+data/drug_release/237..csv,reciprocal,[ 0.878 -0.   ],8.44485969319342
+data/drug_release/238..csv,zero_order,[0.912],16.369935753233673
+data/drug_release/238..csv,first_order,[0.021],8.26715358047475
+data/drug_release/238..csv,higuchi,[8.467],11.5224938870188
+data/drug_release/238..csv,korsmeyer_Peppas,[7.09  0.542],11.444724375086603
+data/drug_release/238..csv,weibull,[217.432   1.429],8.215757095990499
+data/drug_release/238..csv,reciprocal,[2.369 0.017],8.973121181542192
+data/drug_release/239..csv,zero_order,[0.832],9.92578356695073
+data/drug_release/239..csv,first_order,[0.013],15.321868375200093
+data/drug_release/239..csv,higuchi,[7.147],19.827341039832493
+data/drug_release/239..csv,korsmeyer_Peppas,[0.482 1.12 ],9.280730499704562
+data/drug_release/239..csv,weibull,[300.      1.345],11.423140011523515
+data/drug_release/239..csv,reciprocal,[ 0.793 -0.   ],9.815836388373643
+data/drug_release/240..csv,zero_order,[2.91],9.99353277309478
+data/drug_release/240..csv,first_order,[0.044],15.35853304199035
+data/drug_release/240..csv,higuchi,[13.369],17.901266505109987
+data/drug_release/240..csv,korsmeyer_Peppas,[0.881 1.368],8.718072358901898
+data/drug_release/240..csv,weibull,[300.      1.872],10.444608045410057
+data/drug_release/240..csv,reciprocal,[ 2.154 -0.01 ],9.085630694503866
+data/drug_release/241..csv,zero_order,[2.595],9.762974929849737
+data/drug_release/241..csv,first_order,[0.042],16.243746430591198
+data/drug_release/241..csv,higuchi,[13.207],19.075076369026874
+data/drug_release/241..csv,korsmeyer_Peppas,[1.253 1.213],8.913455741482759
+data/drug_release/241..csv,weibull,[300.      1.822],8.651254383015873
+data/drug_release/241..csv,reciprocal,[ 2.257 -0.004],9.508545574968437
+data/drug_release/242..csv,zero_order,[0.778],13.976662969660726
+data/drug_release/242..csv,first_order,[0.011],12.287920327700148
+data/drug_release/242..csv,higuchi,[5.876],8.243547227397956
+data/drug_release/242..csv,korsmeyer_Peppas,[17.901  0.19 ],3.5264204618935624
+data/drug_release/242..csv,weibull,[5.117 0.226],3.397706721905387
+data/drug_release/242..csv,reciprocal,[40.527  1.128],1.5220258237860778
+data/drug_release/243..csv,zero_order,[1.179],7.845338485019613
+data/drug_release/243..csv,first_order,[0.02],12.674554694254507
+data/drug_release/243..csv,higuchi,[9.068],14.158998737987805
+data/drug_release/243..csv,korsmeyer_Peppas,[1.632 0.924],8.041003359474997
+data/drug_release/243..csv,weibull,[300.     1.48],10.13246014657232
+data/drug_release/243..csv,reciprocal,[1.349 0.002],8.11653335244188
+data/drug_release/244..csv,zero_order,[0.831],9.844407554873953
+data/drug_release/244..csv,first_order,[0.013],14.9964586439017
+data/drug_release/244..csv,higuchi,[7.031],19.28116524584222
+data/drug_release/244..csv,korsmeyer_Peppas,[0.438 1.141],9.087174504474394
+data/drug_release/244..csv,weibull,[300.      1.342],11.437726518016841
+data/drug_release/244..csv,reciprocal,[ 0.773 -0.001],9.65981554404767
+data/drug_release/250..csv,zero_order,[26.022],5.885017485637111
+data/drug_release/250..csv,first_order,[0.395],1.6357706081567
+data/drug_release/250..csv,higuchi,[36.049],3.388096405322249
+data/drug_release/250..csv,korsmeyer_Peppas,[33.278  0.657],1.1336484987372846
+data/drug_release/250..csv,weibull,[2.396 0.877],0.33251419756696743
+data/drug_release/250..csv,reciprocal,[48.141  0.397],0.35873384476426473
+data/drug_release/251..csv,zero_order,[25.878],4.788928983259535
+data/drug_release/251..csv,first_order,[0.388],1.06818465107897
+data/drug_release/251..csv,higuchi,[35.591],4.7080727808503084
+data/drug_release/251..csv,korsmeyer_Peppas,[31.602  0.726],2.022580178527948
+data/drug_release/251..csv,weibull,[2.556 0.98 ],1.0178796656461202
+data/drug_release/251..csv,reciprocal,[42.142  0.288],0.9417704465698318
+data/drug_release/252..csv,zero_order,[26.547],3.2338535014317795
+data/drug_release/252..csv,first_order,[0.393],1.3714090684228835
+data/drug_release/252..csv,higuchi,[35.944],6.328693366842022
+data/drug_release/252..csv,korsmeyer_Peppas,[30.473  0.811],1.8024062855298995
+data/drug_release/252..csv,weibull,[2.68  1.109],0.5026526996243681
+data/drug_release/252..csv,reciprocal,[36.66   0.174],1.0309901217846393
+data/drug_release/253..csv,zero_order,[25.835],5.273926313205833
+data/drug_release/253..csv,first_order,[0.387],1.3904415738972544
+data/drug_release/253..csv,higuchi,[35.511],5.184051288773065
+data/drug_release/253..csv,korsmeyer_Peppas,[31.598  0.723],2.561274047207073
+data/drug_release/253..csv,weibull,[2.558 0.977],1.401244014703073
+data/drug_release/253..csv,reciprocal,[42.424  0.295],1.3716453033024243
+data/drug_release/254..csv,zero_order,[25.744],4.849745409321072
+data/drug_release/254..csv,first_order,[0.385],1.167604151643479
+data/drug_release/254..csv,higuchi,[35.386],4.6901619005284205
+data/drug_release/254..csv,korsmeyer_Peppas,[31.556  0.719],2.154768562305024
+data/drug_release/254..csv,weibull,[2.562 0.968],1.125116676945049
+data/drug_release/254..csv,reciprocal,[42.567  0.301],1.0774836737377111
+data/drug_release/255..csv,zero_order,[26.236],3.1995695140636897
+data/drug_release/255..csv,first_order,[0.386],1.4018855659335172
+data/drug_release/255..csv,higuchi,[35.588],6.398101145529902
+data/drug_release/255..csv,korsmeyer_Peppas,[30.071  0.814],1.780779275426532
+data/drug_release/255..csv,weibull,[2.727 1.111],0.5231032977481505
+data/drug_release/255..csv,reciprocal,[36.023  0.169],1.0281635369565938
+data/drug_release/256..csv,zero_order,[30.69],5.695722248342288
+data/drug_release/256..csv,first_order,[0.504],1.2402224075135644
+data/drug_release/256..csv,higuchi,[42.14],5.84871229976159
+data/drug_release/256..csv,korsmeyer_Peppas,[37.486  0.724],2.6938419741385022
+data/drug_release/256..csv,weibull,[2.038 1.071],0.9628957407140376
+data/drug_release/256..csv,reciprocal,[50.203  0.293],1.385782258681485
+data/drug_release/257..csv,zero_order,[25.816],4.728113576723474
+data/drug_release/257..csv,first_order,[0.385],1.0248425784852235
+data/drug_release/257..csv,higuchi,[35.435],4.787339816477938
+data/drug_release/257..csv,korsmeyer_Peppas,[31.463  0.727],1.9709589990719085
+data/drug_release/257..csv,weibull,[2.572 0.98 ],0.9740593484133955
+data/drug_release/257..csv,reciprocal,[41.816  0.285],0.9270870778584674
+data/drug_release/258..csv,zero_order,[26.741],4.59949880568563
+data/drug_release/258..csv,first_order,[0.405],0.8627936153189087
+data/drug_release/258..csv,higuchi,[36.658],5.278432063114729
+data/drug_release/258..csv,korsmeyer_Peppas,[32.282  0.742],2.07258170801191
+data/drug_release/258..csv,weibull,[2.489 1.016],0.8757042429871117
+data/drug_release/258..csv,reciprocal,[41.959  0.261],0.9941206599602341
+data/drug_release/259..csv,zero_order,[27.613],4.480007356795619
+data/drug_release/259..csv,first_order,[0.423],0.7018223342775517
+data/drug_release/259..csv,higuchi,[37.832],5.496911650407714
+data/drug_release/259..csv,korsmeyer_Peppas,[33.109  0.751],1.7037757942989031
+data/drug_release/259..csv,weibull,[2.408 1.045],0.3918813564885264
+data/drug_release/259..csv,reciprocal,[42.307  0.243],0.6852536470994881
+data/drug_release/260..csv,zero_order,[27.607],5.761619388787863
+data/drug_release/260..csv,first_order,[0.431],1.0715783274303858
+data/drug_release/260..csv,higuchi,[38.128],4.415518165311453
+data/drug_release/260..csv,korsmeyer_Peppas,[34.596  0.688],1.7868868053509261
+data/drug_release/260..csv,weibull,[2.273 0.949],0.5994158039321683
+data/drug_release/260..csv,reciprocal,[48.305  0.347],0.5147839019440565
+data/drug_release/261..csv,zero_order,[24.8],2.699835115910318
+data/drug_release/261..csv,first_order,[0.355],1.1004692470240844
+data/drug_release/261..csv,higuchi,[33.648],6.014094889853827
+data/drug_release/261..csv,korsmeyer_Peppas,[28.284  0.821],0.918404677948088
+data/drug_release/261..csv,weibull,[2.937 1.085],0.4862930943010551
+data/drug_release/261..csv,reciprocal,[33.031  0.15 ],0.4324585668726905
+data/drug_release/262..csv,zero_order,[30.688],7.091646583897297
+data/drug_release/262..csv,first_order,[0.516],1.6967693873474516
+data/drug_release/262..csv,higuchi,[42.512],5.1921025512297145
+data/drug_release/262..csv,korsmeyer_Peppas,[38.893  0.673],3.4552011180560065
+data/drug_release/262..csv,weibull,[1.941 1.002],1.6922923249902952
+data/drug_release/262..csv,reciprocal,[56.456  0.389],1.8963592016944426
+data/drug_release/263..csv,zero_order,[33.85],7.045119518297575
+data/drug_release/263..csv,first_order,[0.599],1.930123163152631
+data/drug_release/263..csv,higuchi,[46.695],6.25860447372686
+data/drug_release/263..csv,korsmeyer_Peppas,[42.012  0.703],3.2580227866614244
+data/drug_release/263..csv,weibull,[1.731 1.127],0.7393002647283234
+data/drug_release/263..csv,reciprocal,[58.178  0.331],1.7328887105725579
+data/drug_release/264..csv,zero_order,[36.446],9.303258451619259
+data/drug_release/264..csv,first_order,[0.702],0.9774623715532845
+data/drug_release/264..csv,higuchi,[50.808],4.687121594080648
+data/drug_release/264..csv,korsmeyer_Peppas,[47.477  0.633],2.702410535710276
+data/drug_release/264..csv,weibull,[1.442 1.061],0.3655113228877518
+data/drug_release/264..csv,reciprocal,[72.022  0.455],0.7909177434044858
+data/drug_release/265..csv,zero_order,[31.045],4.991617096922968
+data/drug_release/265..csv,first_order,[0.507],1.625422353180407
+data/drug_release/265..csv,higuchi,[42.482],6.37549675796289
+data/drug_release/265..csv,korsmeyer_Peppas,[37.149  0.754],1.718434845120661
+data/drug_release/265..csv,weibull,[2.059 1.112],0.6183631295711671
+data/drug_release/265..csv,reciprocal,[47.28   0.239],0.6526494163991392
+data/drug_release/267..csv,zero_order,[6.368],33.40679017469634
+data/drug_release/267..csv,first_order,[0.49],4.098896209715639
+data/drug_release/267..csv,higuchi,[28.255],15.652720122234651
+data/drug_release/267..csv,korsmeyer_Peppas,[42.788  0.326],11.724115838754333
+data/drug_release/267..csv,weibull,[1.928 0.899],4.012424038878136
+data/drug_release/267..csv,reciprocal,[68.161  0.598],4.982245841458804
+data/drug_release/268..csv,zero_order,[2.648],14.794360509545744
+data/drug_release/268..csv,first_order,[0.044],12.222100437161114
+data/drug_release/268..csv,higuchi,[11.908],7.63472804187966
+data/drug_release/268..csv,korsmeyer_Peppas,[20.376  0.27 ],2.588702498964518
+data/drug_release/268..csv,weibull,[4.355 0.325],2.4086422915090226
+data/drug_release/268..csv,reciprocal,[55.412  1.331],2.650071130273946
+data/drug_release/269..csv,zero_order,[6.515],37.948170778451505
+data/drug_release/269..csv,first_order,[0.823],4.1226173997650495
+data/drug_release/269..csv,higuchi,[29.944],19.457969915502417
+data/drug_release/269..csv,korsmeyer_Peppas,[54.734  0.245],9.859451629890236
+data/drug_release/269..csv,weibull,[1.174 0.773],3.5577358025457486
+data/drug_release/269..csv,reciprocal,[125.637   1.148],4.829132344835174
+data/drug_release/270..csv,zero_order,[3.726],16.658606819731745
+data/drug_release/270..csv,first_order,[0.084],11.553063524372005
+data/drug_release/270..csv,higuchi,[16.217],7.0828660255304925
+data/drug_release/270..csv,korsmeyer_Peppas,[25.057  0.317],2.4989807248422786
+data/drug_release/270..csv,weibull,[3.443 0.416],1.9146594442861833
+data/drug_release/270..csv,reciprocal,[39.107  0.612],3.7155011338283246
+data/drug_release/271..csv,zero_order,[1.651],47.57425725697355
+data/drug_release/271..csv,first_order,[0.99],9.787829155781617
+data/drug_release/271..csv,higuchi,[14.82],36.333555703987656
+data/drug_release/271..csv,korsmeyer_Peppas,[67.838  0.074],5.981330351637078
+data/drug_release/271..csv,weibull,[0.926 0.241],5.776162360305044
+data/drug_release/271..csv,reciprocal,[255.993   2.852],1.8561025782264093
+data/drug_release/272..csv,zero_order,[1.628],35.657056168141786
+data/drug_release/272..csv,first_order,[0.395],6.6866271004566125
+data/drug_release/272..csv,higuchi,[13.93],24.36347599009911
+data/drug_release/272..csv,korsmeyer_Peppas,[41.396  0.201],10.639645212758504
+data/drug_release/272..csv,weibull,[2.34  0.885],6.6398304285594145
+data/drug_release/272..csv,reciprocal,[68.825  0.762],4.126825556586173
+data/drug_release/273..csv,zero_order,[0.437],2.1518938422494567
+data/drug_release/273..csv,first_order,[0.005],2.1103030766583055
+data/drug_release/273..csv,higuchi,[2.014],1.0030424408655143
+data/drug_release/273..csv,korsmeyer_Peppas,[2.777 0.363],0.9693545251936255
+data/drug_release/273..csv,weibull,[35.572  0.374],0.9551440950679039
+data/drug_release/273..csv,reciprocal,[3.781 0.442],0.27126150965046375
+data/drug_release/274..csv,zero_order,[0.281],1.2706808648584516
+data/drug_release/274..csv,first_order,[0.003],1.2548548278687985
+data/drug_release/274..csv,higuchi,[1.268],0.4450102827629417
+data/drug_release/274..csv,korsmeyer_Peppas,[1.811 0.348],0.2860594955868271
+data/drug_release/274..csv,weibull,[54.77   0.354],0.2815470354164647
+data/drug_release/274..csv,reciprocal,[2.229 0.413],0.10524090248088439
+data/drug_release/275..csv,zero_order,[0.218],1.0486099399353455
+data/drug_release/275..csv,first_order,[0.002],1.0378331993668464
+data/drug_release/275..csv,higuchi,[0.979],0.4038983168057537
+data/drug_release/275..csv,korsmeyer_Peppas,[1.316 0.374],0.33180662271310013
+data/drug_release/275..csv,weibull,[75.586  0.379],0.32866274137428186
+data/drug_release/275..csv,reciprocal,[1.64  0.385],0.03442612857611045
+data/drug_release/276..csv,zero_order,[0.135],0.6617449902030873
+data/drug_release/276..csv,first_order,[0.001],0.6577058528593804
+data/drug_release/276..csv,higuchi,[0.607],0.22589276790477347
+data/drug_release/276..csv,korsmeyer_Peppas,[0.859 0.352],0.1583842175842482
+data/drug_release/276..csv,weibull,[115.988   0.355],0.1575059642179073
+data/drug_release/276..csv,reciprocal,[0.998 0.379],0.05439553114606125
+data/drug_release/277..csv,zero_order,[0.147],1.7529520312462137
+data/drug_release/277..csv,first_order,[0.002],1.739360539620375
+data/drug_release/277..csv,higuchi,[0.956],0.9983806139021314
+data/drug_release/277..csv,korsmeyer_Peppas,[2.123 0.257],0.6025325395608874
+data/drug_release/277..csv,weibull,[46.699  0.263],0.5989311531896813
+data/drug_release/277..csv,reciprocal,[2.371 0.431],0.16607176391266615
+data/drug_release/278..csv,zero_order,[0.192],2.134474853666513
+data/drug_release/278..csv,first_order,[0.002],2.110179120772376
+data/drug_release/278..csv,higuchi,[1.234],1.1544348675984943
+data/drug_release/278..csv,korsmeyer_Peppas,[2.454 0.291],0.7920553618876254
+data/drug_release/278..csv,weibull,[40.417  0.299],0.7857841806343948
+data/drug_release/278..csv,reciprocal,[2.334 0.316],0.24571046965615545
+data/drug_release/279..csv,zero_order,[0.172],1.13112875989938
+data/drug_release/279..csv,first_order,[0.002],1.1101976659816917
+data/drug_release/279..csv,higuchi,[1.048],0.4438819635437504
+data/drug_release/279..csv,korsmeyer_Peppas,[1.225 0.453],0.42392169793824985
+data/drug_release/279..csv,weibull,[81.892  0.463],0.4176420686871147
+data/drug_release/279..csv,reciprocal,[0.776 0.097],0.1085696238797443
+data/drug_release/280..csv,zero_order,[0.482],1.729919501387448
+data/drug_release/280..csv,first_order,[0.006],2.934862247132601
+data/drug_release/280..csv,higuchi,[4.351],7.1872895822262
+data/drug_release/280..csv,korsmeyer_Peppas,[0.358 1.066],1.5707864435771683
+data/drug_release/280..csv,weibull,[300.      1.148],1.6763307024024472
+data/drug_release/280..csv,reciprocal,[ 0.465 -0.   ],1.7283533036926502
+data/drug_release/281..csv,zero_order,[1.435],19.083559364532817
+data/drug_release/281..csv,first_order,[0.028],15.053823952906392
+data/drug_release/281..csv,higuchi,[9.533],10.055793102388462
+data/drug_release/281..csv,korsmeyer_Peppas,[23.259  0.219],5.190200753495279
+data/drug_release/281..csv,weibull,[3.863 0.285],4.724683886024264
+data/drug_release/281..csv,reciprocal,[34.374  0.68 ],1.5377339828405439
+data/drug_release/282..csv,zero_order,[1.366],6.227989267111623
+data/drug_release/282..csv,first_order,[0.024],3.917569960489057
+data/drug_release/282..csv,higuchi,[9.241],9.032000885630369
+data/drug_release/282..csv,korsmeyer_Peppas,[3.529 0.76 ],5.120083738607597
+data/drug_release/282..csv,weibull,[94.123  1.238],2.2579376101903046
+data/drug_release/282..csv,reciprocal,[2.258 0.012],3.972892386989837
+data/drug_release/283..csv,zero_order,[3.628],36.088538668034175
+data/drug_release/283..csv,first_order,[0.283],10.297976313695592
+data/drug_release/283..csv,higuchi,[20.354],19.612495067907346
+data/drug_release/283..csv,korsmeyer_Peppas,[43.569  0.23 ],7.956505471022981
+data/drug_release/283..csv,weibull,[1.957 0.5  ],4.424812850818686
+data/drug_release/283..csv,reciprocal,[68.716  0.756],1.683121280278913
+data/drug_release/284..csv,zero_order,[3.749],12.839911750825285
+data/drug_release/284..csv,first_order,[0.052],11.72987176914045
+data/drug_release/284..csv,higuchi,[12.429],8.062149597086806
+data/drug_release/284..csv,korsmeyer_Peppas,[21.828  0.211],4.459728520968519
+data/drug_release/284..csv,weibull,[4.03  0.249],4.262606183022573
+data/drug_release/284..csv,reciprocal,[123.408   3.669],0.5436171791592677
+data/drug_release/285..csv,zero_order,[3.603],11.053312239542285
+data/drug_release/285..csv,first_order,[0.048],10.081129733109256
+data/drug_release/285..csv,higuchi,[11.756],6.526514274071874
+data/drug_release/285..csv,korsmeyer_Peppas,[19.77   0.232],3.3307393623891013
+data/drug_release/285..csv,weibull,[4.506 0.269],3.140404694548249
+data/drug_release/285..csv,reciprocal,[82.55   2.549],0.9854275539650947
+data/drug_release/286..csv,zero_order,[1.31],20.595331255530553
+data/drug_release/286..csv,first_order,[0.046],11.879953198694174
+data/drug_release/286..csv,higuchi,[10.32],10.460855470931211
+data/drug_release/286..csv,korsmeyer_Peppas,[19.531  0.325],8.495884342217847
+data/drug_release/286..csv,weibull,[5.523 0.495],6.9074441204278445
+data/drug_release/286..csv,reciprocal,[12.54   0.162],2.9880429764106933
+data/drug_release/287..csv,zero_order,[1.163],15.879831448836399
+data/drug_release/287..csv,first_order,[0.026],10.80563171009863
+data/drug_release/287..csv,higuchi,[8.962],7.594831004426329
+data/drug_release/287..csv,korsmeyer_Peppas,[13.865  0.38 ],6.957933044545748
+data/drug_release/287..csv,weibull,[8.066 0.532],5.860159259573417
+data/drug_release/287..csv,reciprocal,[7.904 0.108],2.5969133787948158
+data/drug_release/288..csv,zero_order,[4.645],27.48256074127721
+data/drug_release/288..csv,first_order,[0.271],12.068251268081776
+data/drug_release/288..csv,higuchi,[21.276],13.901136143988571
+data/drug_release/288..csv,korsmeyer_Peppas,[36.652  0.291],7.7407984738159845
+data/drug_release/288..csv,weibull,[2.255 0.514],4.340260597545378
+data/drug_release/288..csv,reciprocal,[60.947  0.689],2.1009162749372035
+data/drug_release/289..csv,zero_order,[4.379],25.222193941853487
+data/drug_release/289..csv,first_order,[0.202],12.918638141745557
+data/drug_release/289..csv,higuchi,[19.987],11.875741664883273
+data/drug_release/289..csv,korsmeyer_Peppas,[32.696  0.305],6.960560617306891
+data/drug_release/289..csv,weibull,[2.616 0.496],4.620399133703443
+data/drug_release/289..csv,reciprocal,[49.093  0.586],2.1411264954293148
+data/drug_release/290..csv,zero_order,[6.167],20.554337591811695
+data/drug_release/290..csv,first_order,[0.225],2.2210965352562
+data/drug_release/290..csv,higuchi,[24.783],7.070737012655581
+data/drug_release/290..csv,korsmeyer_Peppas,[28.744  0.434],7.731421443668903
+data/drug_release/290..csv,weibull,[3.91  0.904],1.7228639153757361
+data/drug_release/290..csv,reciprocal,[30.013  0.256],2.5001654014087245
+data/drug_release/291..csv,zero_order,[5.34],17.537041140649542
+data/drug_release/291..csv,first_order,[0.162],4.120171944463803
+data/drug_release/291..csv,higuchi,[21.301],6.463109035491635
+data/drug_release/291..csv,korsmeyer_Peppas,[23.517  0.456],6.9229539898558405
+data/drug_release/291..csv,weibull,[4.443 0.78 ],2.3737987448385995
+data/drug_release/291..csv,reciprocal,[25.024  0.244],1.5184279754837087
+data/drug_release/292..csv,zero_order,[5.69],18.61336782335271
+data/drug_release/292..csv,first_order,[0.186],3.6792147864070044
+data/drug_release/292..csv,higuchi,[22.808],6.221747772145251
+data/drug_release/292..csv,korsmeyer_Peppas,[26.174  0.439],6.72459164524851
+data/drug_release/292..csv,weibull,[4.083 0.81 ],1.892779313463097
+data/drug_release/292..csv,reciprocal,[27.205  0.251],1.9000932854959085
+data/drug_release/293..csv,zero_order,[0.315],7.495839941117822
+data/drug_release/293..csv,first_order,[0.004],7.3848182697525555
+data/drug_release/293..csv,higuchi,[2.462],5.7212731084072415
+data/drug_release/293..csv,korsmeyer_Peppas,[8.431 0.105],3.4017189376070363
+data/drug_release/293..csv,weibull,[11.368  0.111],3.3982521443107903
+data/drug_release/293..csv,reciprocal,[36.378  3.01 ],2.432341195185591
+data/drug_release/294..csv,zero_order,[1.371],14.90626358870838
+data/drug_release/294..csv,first_order,[0.038],5.28867654641813
+data/drug_release/294..csv,higuchi,[10.403],8.337464680170264
+data/drug_release/294..csv,korsmeyer_Peppas,[10.792  0.49 ],8.390685864566542
+data/drug_release/294..csv,weibull,[14.783  0.801],5.077725737739761
+data/drug_release/294..csv,reciprocal,[5.869 0.057],4.227427912357893
+data/drug_release/295..csv,zero_order,[0.14],4.44200233701308
+data/drug_release/295..csv,first_order,[0.002],4.2672125066647135
+data/drug_release/295..csv,higuchi,[1.626],2.2528642984989564
+data/drug_release/295..csv,korsmeyer_Peppas,[4.853 0.261],0.7323373321041501
+data/drug_release/295..csv,weibull,[20.423  0.278],0.7173867341210896
+data/drug_release/295..csv,reciprocal,[2.58  0.151],0.8588744140235622
+data/drug_release/296..csv,zero_order,[0.086],1.7881529678233905
+data/drug_release/296..csv,first_order,[0.001],1.7163826442966441
+data/drug_release/296..csv,higuchi,[0.963],0.5030221187199012
+data/drug_release/296..csv,korsmeyer_Peppas,[1.497 0.404],0.37998519768481065
+data/drug_release/296..csv,weibull,[67.875  0.419],0.3856133141265209
+data/drug_release/296..csv,reciprocal,[0.445 0.035],0.7525797472628781
+data/drug_release/297..csv,zero_order,[0.074],1.5003950427833075
+data/drug_release/297..csv,first_order,[0.001],1.4467914039030152
+data/drug_release/297..csv,higuchi,[0.835],0.430712116517517
+data/drug_release/297..csv,korsmeyer_Peppas,[1.258 0.411],0.3298099232148888
+data/drug_release/297..csv,weibull,[80.652  0.424],0.33611611962755256
+data/drug_release/297..csv,reciprocal,[0.368 0.033],0.6380411346711946
+data/drug_release/298..csv,zero_order,[0.601],10.020440811811536
+data/drug_release/298..csv,first_order,[0.009],8.779060163547877
+data/drug_release/298..csv,higuchi,[5.37],4.800428974199965
+data/drug_release/298..csv,korsmeyer_Peppas,[9.609 0.354],3.324449794799034
+data/drug_release/298..csv,weibull,[10.484  0.421],2.903031032275823
+data/drug_release/298..csv,reciprocal,[6.491 0.141],1.1996941749275842
+data/drug_release/299..csv,zero_order,[0.306],2.6866289168285267
+data/drug_release/299..csv,first_order,[0.004],2.388792647596485
+data/drug_release/299..csv,higuchi,[2.57],0.47617883073107037
+data/drug_release/299..csv,korsmeyer_Peppas,[2.222 0.536],0.4312018576290258
+data/drug_release/299..csv,weibull,[47.734  0.579],0.49850577742890834
+data/drug_release/299..csv,reciprocal,[0.821 0.023],1.2959751458535973
+data/drug_release/300..csv,zero_order,[0.234],6.754514965909678
+data/drug_release/300..csv,first_order,[0.003],6.181779148676306
+data/drug_release/300..csv,higuchi,[2.705],3.0868703052101925
+data/drug_release/300..csv,korsmeyer_Peppas,[7.204 0.286],0.6846201196350469
+data/drug_release/300..csv,weibull,[13.821  0.319],0.6602546451366619
+data/drug_release/300..csv,reciprocal,[2.71 0.09],1.8559399132997338
+data/drug_release/301..csv,zero_order,[0.16],3.947379472695917
+data/drug_release/301..csv,first_order,[0.002],3.67624123066458
+data/drug_release/301..csv,higuchi,[1.809],1.3387783570162215
+data/drug_release/301..csv,korsmeyer_Peppas,[3.232 0.374],0.7836739935592458
+data/drug_release/301..csv,weibull,[31.566  0.4  ],0.7882255766438557
+data/drug_release/301..csv,reciprocal,[1.113 0.05 ],1.3658235528947367
+data/drug_release/302..csv,zero_order,[0.803],23.882017787009868
+data/drug_release/302..csv,first_order,[0.05],2.237018828779434
+data/drug_release/302..csv,higuchi,[9.326],10.874126719093937
+data/drug_release/302..csv,korsmeyer_Peppas,[20.504  0.329],7.885600350496371
+data/drug_release/302..csv,weibull,[12.957  0.845],1.0842321249710396
+data/drug_release/302..csv,reciprocal,[7.252 0.066],1.7673186858502
+data/drug_release/303..csv,zero_order,[0.581],11.631116517619901
+data/drug_release/303..csv,first_order,[0.012],5.469314498487272
+data/drug_release/303..csv,higuchi,[6.512],3.4760270992218736
+data/drug_release/303..csv,korsmeyer_Peppas,[7.02  0.484],3.4696091259491078
+data/drug_release/303..csv,weibull,[22.272  0.7  ],1.3857293112082258
+data/drug_release/303..csv,reciprocal,[2.356 0.025],1.0820404501444454
+data/drug_release/304..csv,zero_order,[0.485],7.646007274845286
+data/drug_release/304..csv,first_order,[0.008],3.828280730588203
+data/drug_release/304..csv,higuchi,[5.375],1.1620734059879312
+data/drug_release/304..csv,korsmeyer_Peppas,[4.657 0.531],1.029459897875823
+data/drug_release/304..csv,weibull,[32.651  0.708],1.0660376577075665
+data/drug_release/304..csv,reciprocal,[1.355 0.014],2.0725066586145537
+data/drug_release/305..csv,zero_order,[0.295],6.041702294126057
+data/drug_release/305..csv,first_order,[0.004],4.730302924581193
+data/drug_release/305..csv,higuchi,[3.312],1.2985080252042058
+data/drug_release/305..csv,korsmeyer_Peppas,[3.901 0.465],1.2500722290300794
+data/drug_release/305..csv,weibull,[29.762  0.542],0.9419707424516254
+data/drug_release/305..csv,reciprocal,[1.126 0.023],0.6805176749794525
+data/drug_release/306..csv,zero_order,[0.252],6.647664501267772
+data/drug_release/306..csv,first_order,[0.003],5.891864970070967
+data/drug_release/306..csv,higuchi,[2.896],3.0674094979298174
+data/drug_release/306..csv,korsmeyer_Peppas,[4.806 0.39 ],2.6729732463147573
+data/drug_release/306..csv,weibull,[22.104  0.441],2.4577965910730115
+data/drug_release/306..csv,reciprocal,[1.796 0.05 ],0.470752902663001
+data/drug_release/308..csv,zero_order,[1.064],5.9041569719627764
+data/drug_release/308..csv,first_order,[0.014],5.137879325076253
+data/drug_release/308..csv,higuchi,[6.544],2.7704068108724047
+data/drug_release/308..csv,korsmeyer_Peppas,[6.729 0.492],2.7889572596227783
+data/drug_release/308..csv,weibull,[15.239  0.565],3.0357627598652073
+data/drug_release/308..csv,reciprocal,[3.745 0.066],4.073857175632582
+data/drug_release/309..csv,zero_order,[2.317],26.08458595167072
+data/drug_release/309..csv,first_order,[0.148],5.702076253684782
+data/drug_release/309..csv,higuchi,[15.383],11.962209836934216
+data/drug_release/309..csv,korsmeyer_Peppas,[28.879  0.307],6.1421317184276285
+data/drug_release/309..csv,weibull,[3.594 0.571],2.910473893480757
+data/drug_release/309..csv,reciprocal,[23.298  0.243],1.015602927194171
+data/drug_release/310..csv,zero_order,[1.063],18.593798847158286
+data/drug_release/310..csv,first_order,[0.017],16.942806126094766
+data/drug_release/310..csv,higuchi,[7.622],11.640909722755325
+data/drug_release/310..csv,korsmeyer_Peppas,[21.838  0.177],5.414634039186386
+data/drug_release/310..csv,weibull,[4.082 0.218],5.084124054055818
+data/drug_release/310..csv,reciprocal,[64.943  1.694],1.4238736052178294
+data/drug_release/311..csv,zero_order,[1.58],17.873353531456385
+data/drug_release/311..csv,first_order,[0.033],12.591170850932386
+data/drug_release/311..csv,higuchi,[10.443],8.422595369150097
+data/drug_release/311..csv,korsmeyer_Peppas,[19.452  0.309],4.226309701377001
+data/drug_release/311..csv,weibull,[4.877 0.412],3.6909533805176373
+data/drug_release/311..csv,reciprocal,[16.33   0.254],3.141211795239245
+data/drug_release/312..csv,zero_order,[2.431],33.64651111812159
+data/drug_release/312..csv,first_order,[0.26],6.518053853705433
+data/drug_release/312..csv,higuchi,[16.737],19.35420721783327
+data/drug_release/312..csv,korsmeyer_Peppas,[38.698  0.243],10.841539509271115
+data/drug_release/312..csv,weibull,[2.415 0.573],7.690823558542276
+data/drug_release/312..csv,reciprocal,[47.87   0.512],4.479532110605998
+data/drug_release/313..csv,zero_order,[2.206],21.847190169130567
+data/drug_release/313..csv,first_order,[0.116],11.192582286270449
+data/drug_release/313..csv,higuchi,[14.42],11.014529871203763
+data/drug_release/313..csv,korsmeyer_Peppas,[30.393  0.27 ],3.3303419988791916
+data/drug_release/313..csv,weibull,[3.047 0.431],4.396198642741138
+data/drug_release/313..csv,reciprocal,[24.458  0.285],6.416583312423813
+data/drug_release/314..csv,zero_order,[0.907],7.6320718206753
+data/drug_release/314..csv,first_order,[0.012],6.443577668201173
+data/drug_release/314..csv,higuchi,[5.572],1.9344104260477109
+data/drug_release/314..csv,korsmeyer_Peppas,[7.913 0.389],0.6954524378628625
+data/drug_release/314..csv,weibull,[12.725  0.443],0.575777326710336
+data/drug_release/314..csv,reciprocal,[4.795 0.124],1.406652794665591
+data/drug_release/315..csv,zero_order,[0.882],7.899364718448114
+data/drug_release/315..csv,first_order,[0.012],6.783309824547111
+data/drug_release/315..csv,higuchi,[5.459],2.4254833879440385
+data/drug_release/315..csv,korsmeyer_Peppas,[8.295 0.367],0.736208956506812
+data/drug_release/315..csv,weibull,[11.886  0.412],0.6952248767344893
+data/drug_release/315..csv,reciprocal,[5.648 0.16 ],1.9218884168373807
+data/drug_release/316..csv,zero_order,[0.53],4.762157615529707
+data/drug_release/316..csv,first_order,[0.006],4.412303996912243
+data/drug_release/316..csv,higuchi,[3.28],1.4915436218049913
+data/drug_release/316..csv,korsmeyer_Peppas,[4.858 0.375],0.508079690026275
+data/drug_release/316..csv,weibull,[20.422  0.401],0.482212301488982
+data/drug_release/316..csv,reciprocal,[3.341 0.156],0.9627124992401801
+data/drug_release/317..csv,zero_order,[0.648],5.371052928846763
+data/drug_release/317..csv,first_order,[0.008],4.835917058955003
+data/drug_release/317..csv,higuchi,[3.97],1.4095800869105573
+data/drug_release/317..csv,korsmeyer_Peppas,[5.627 0.389],0.5493551377875345
+data/drug_release/317..csv,weibull,[17.648  0.422],0.5518394729780971
+data/drug_release/317..csv,reciprocal,[3.473 0.127],1.5330561226833048
