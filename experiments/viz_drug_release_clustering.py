@@ -85,7 +85,6 @@ for i in range(1, num_clusters+1):
     
     cluster_dfs[cluster_name] = cluster_df #cluster_dfs['clust_4'] example indexing 
 
-#join summary_dfs[x] and cluster_dfs['clust_x']
 predicted_dr = {}
 
 for i, cluster_name in enumerate(clusters):
@@ -98,9 +97,8 @@ def plot_clust_in_grid(line_colors):
 
     # Loop through clusters and corresponding line colors
     for clust_num, line_color, ax in zip([3, 1, 2], line_colors, axes.flatten()):
-        clust_df = predicted_dr[f"clust_{clust_num}"].iloc[:, 4:]
-        #summary_df = predicted_dr[f"clust_{clust_num}"].iloc[:, :4]  # min, mean, max
-        
+        clust_df = predicted_dr[f"clust_{clust_num}"].iloc[:, 4:]        
+       
         # Plot each individual Weibull release curve with a lighter color
         for col in clust_df.columns:
             ax.plot(t, clust_df[col], color=line_color, alpha=0.2)
