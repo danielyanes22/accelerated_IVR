@@ -42,10 +42,8 @@ weibull_params.to_csv(f'data/unprocessed/weibullparams_f2.csv', index=False)
 #filter plots where f2 > 50 and remove bi-phasic plots
 filtered_weibull = weibull_params[weibull_params['F2'] > 50]
 
-print(filtered_weibull['File_Name'])
-
 folder = 'data/drug_release/'
-print(f"{folder}238..csv")
+
 bi_phasic_files = [
     'data/drug_release/238..csv',
     'data/drug_release/234..csv',
