@@ -2,6 +2,10 @@
 Script to join drug release profile kinetic class assigned by PCA-KMC to feature inputs
 and preprocess the data for ML modeling.
 
+Inputs:
+-3_PCA_KMC.csv: PCA-KMC results with drug release profile kinetic class assignment.
+-backend_data.csv: Feature inputs queried from liposome_IVR.db
+
 Outputs:
 - df_7_features_clean: Processed dataset with 7 features (excludes 'release_method' and 'structure_type').
 - df_9_features_clean: Processed dataset with 9 features (includes 'release_method' and 'structure_type').
@@ -66,7 +70,8 @@ df_clean['API_name'] = df_clean['API_name'].astype('category').cat.set_categorie
 
 df_clean.rename(columns={"API_name": "API_type"}, inplace=True)
 
-df_7_features["API_name"] = df_7_features["API_name"].astype("category").cat.codes
+df_7_features["API_name"] = df_7_features["API_name"].astype("category").cat.set_categories(
+    API_names, ordered=True).cat.codes
 df_7_features.rename(columns={"API_name": "API_type"}, inplace=True)
 
 # Adjust cluster labels to avoid zero indexing and remove duplicate rows
