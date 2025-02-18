@@ -49,6 +49,7 @@ pip install -r requirements.txt
 <!-- Content-->
 <h2 id="content">Project structure</h2>
 This following structure shows where to place the database and digitised drug release profile files to run the code:
+
 ├── data/
 |   |-- liposome_IVR.db # Place database file here 
 │   ├── 
