@@ -39,6 +39,4 @@ for model, bounds in models_bounds.items():
 
 #parameter sets ordered zero, first, higuchi, kp, weibull, reciprocal
 
-#model bounds for optimisation
-
 

@@ -43,8 +43,6 @@ rfecv = RFECV(
 
 # Fit RFECV
 rfecv.fit(X, y)
-
-# Convert RFECV results to DataFrame for easier analysis
 cv_results = pd.DataFrame(rfecv.cv_results_)
 
 cv_results.index += 1
@@ -65,13 +63,9 @@ plt.errorbar(
     capsize=5)
 plt.xlabel("Number of Features Selected",  fontsize=16, fontweight='bold')
 plt.ylabel("Balanced accuracy score", fontsize=16, fontweight='bold')
-
-#increase size of axis labels and ticks 
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
-
-plt.ylim(0, 1)  # Set y-axis limits from 0 to 1
-# Set y-axis ticks to increments of 0.1
+plt.ylim(0, 1) 
 plt.yticks(np.arange(0, 1.1, 0.1))
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.7)

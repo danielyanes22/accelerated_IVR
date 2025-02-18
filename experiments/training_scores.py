@@ -73,13 +73,28 @@ results = {name: {} for name in classifier_names}
 
 
 # Function to compute metrics
-def compute_metrics(y_true, y_pred):
-    metrics = {}
-    metrics['Balanced Accuracy'] = balanced_accuracy_score(y_true, y_pred)
-        
-    metrics['MCC'] = matthews_corrcoef(y_true, y_pred)
-    metrics['F1 Score'] = f1_score(y_true, y_pred, average='micro')
-    return metrics
+def compute_metrics(y_true: np.ndarray, y_pred: np.ndarray) -> dict[str, float]:
+    """
+    Compute classification performance metrics.
+
+    This function calculates key evaluation metrics for classification models:
+    - Balanced Accuracy
+    - Matthews Correlation Coefficient (MCC)
+    - F1 Score (micro-averaged)
+
+    Parameters:
+    y_true (np.ndarray): Array of true class labels.
+    y_pred (np.ndarray): Array of predicted class labels.
+
+    Returns:
+    dict[str, float]: A dictionary containing the computed metric values.
+    """
+    return {
+        'Balanced Accuracy': balanced_accuracy_score(y_true, y_pred),
+        'MCC': matthews_corrcoef(y_true, y_pred),
+        'F1 Score': f1_score(y_true, y_pred, average='micro')
+    }
+
 
 # Train and evaluate each classifier
 num_classes = len(np.unique(y))
@@ -108,12 +123,8 @@ def model_eval(df, filename=None):
     angles = [angle + np.pi/2 for angle in angles]  # Rotate by 90 degrees
     angles += angles[:1]
 
-    # Initialize radar plot
-    #fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
-    
-    # Create figure and GridSpec layout
+    # Initialize radar plot    
     fig = plt.figure(figsize=(18, 8))
-    #gs = GridSpec(1, 1, width_ratios=[1, 1], wspace=0.20)  # Adjust width ratios as needed
     
     # Radar plot
     ax_radar = fig.add_subplot( polar=True)
@@ -146,10 +157,8 @@ def model_eval(df, filename=None):
         ax_radar.text(angle, 0.7, '0.7', horizontalalignment='center', size=9, color='black', weight='bold')
         ax_radar.text(angle, 0.6, '0.6', horizontalalignment='center', size=9, color='black', weight='bold')
 
-    # Add a legend
     ax_radar.legend(loc='center left',bbox_to_anchor=(-0.5, 0.5), fontsize=12)
 
-    
     # Save the plot if a filename is provided
     if filename:
         plt.savefig(filename, dpi=1200, bbox_inches='tight')

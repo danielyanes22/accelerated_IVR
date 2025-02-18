@@ -57,7 +57,6 @@ for file_name, group in grouped:
     rrmse_weibull = calculate_rrmse(y_exp, y_pred_weibull)
     rrmse_reciprocal = calculate_rrmse(y_exp, y_pred_reciprocal)
     
-    # Append results to the list
     aic_results.append({
         'File Name': file_name,
         'Zero Order': aic_zero,
@@ -85,7 +84,6 @@ for file_name, group in grouped:
         'Weibull': rrmse_weibull,
         'Reciprocal': rrmse_reciprocal})
     
-# Convert the results to a DataFrame
 aic_df = pd.DataFrame(aic_results)
 F2_df = pd.DataFrame(F2_results)
 RRMSE_df = pd.DataFrame(rrmse)

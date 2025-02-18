@@ -1,11 +1,11 @@
-import pandas as pd 
-from scipy.stats import ks_2samp
-
 """ 
 ks test to compare aboslute error distributions of Weibull and reciprocal fit.
 
 Daniel Yanes | University of Nottingham
 """
+
+import pandas as pd 
+from scipy.stats import ks_2samp
 
 AE_df = pd.read_csv('results/fitting/AE_df.csv')
 

@@ -1,4 +1,3 @@
-
 """
 This script generates boxplots for the fitting metrics of each kinetic model: RRMSE, AIC, and F2. In addition to EPCD plot of the absolute error.
 

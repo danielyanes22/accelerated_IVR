@@ -120,18 +120,43 @@ for k, ax in zip(k_values, axes.flatten()):
 plt.tight_layout()
 fig.savefig(f'figures/SI/fig_S6PCA_KMC.svg', dpi = 1200, bbox_inches = 'tight')
 
-def calculate_WSS(points, kmax):
+
+def calculate_WSS(points: pd.DataFrame, kmax: int) -> list[float]:
+    """
+    Calculate the Within-Cluster Sum of Squares (WSS) for a range of cluster numbers.
+
+    This function applies the K-Means clustering algorithm to a given dataset and computes
+    the sum of squared errors (SSE) for each cluster count from 1 to kmax. The WSS values
+    can be used to determine the optimal number of clusters using the Elbow Method.
+
+    Reference:
+    - Stack Overflow: https://stackoverflow.com/questions/34710589/k-means-algorithm-working-out-squared-error
+
+    Parameters:
+    points (pd.DataFrame): A DataFrame containing the data points (features).
+    kmax (int): The maximum number of clusters to evaluate.
+
+    Returns:
+    list[float]: A list containing the SSE (WSS) values for each k from 1 to kmax.
+    """
+
     sse = []
-    for k in range(1, kmax+1):
-        kmeans = KMeans(n_clusters = k, random_state= 1884).fit(points)
+    
+    for k in range(1, kmax + 1):
+        kmeans = KMeans(n_clusters=k, random_state=1884).fit(points)
         centroids = kmeans.cluster_centers_
         pred_clusters = kmeans.predict(points)
         curr_sse = 0
+
+        # Calculate SSE for the current clustering
         for i in range(len(points)):
             curr_center = centroids[pred_clusters[i]]
             curr_sse += (points.iloc[i, 0] - curr_center[0]) ** 2 + (points.iloc[i, 1] - curr_center[1]) ** 2 
+        
         sse.append(curr_sse)
+
     return sse
+
 
 
 wss = calculate_WSS(params_pca[['PC1', 'PC2']], 10)
@@ -150,12 +175,11 @@ fig, axes = plt.subplots(2, 3, figsize=(15, 10))
 
 # Iterate through k values and plot silhouette plots
 for k, ax in zip(k_values, axes.flatten()):
-    # Perform k-means clustering
+    # Perform k-means clustering and compute silhouette scores
     kmeans = KMeans(n_clusters=k, random_state=1884)
     kmeans.fit(params_pca[['PC1', 'PC2']])
     cluster_labels = kmeans.labels_
     
-    # Compute silhouette scores
     silhouette_avg = silhouette_score(params_pca[['PC1', 'PC2']], cluster_labels, metric = 'euclidean')
     sample_silhouette_values = silhouette_samples(params_pca[['PC1', 'PC2']], cluster_labels)
     
@@ -174,13 +198,9 @@ for k, ax in zip(k_values, axes.flatten()):
         ax.fill_betweenx(np.arange(y_lower, y_upper),
                           0, ith_cluster_silhouette_values,
                           facecolor=color, edgecolor=color, alpha=0.7)
-
-        #ax.text(-0.05, y_lower + 0.5 * size_cluster_i, str(i))
-
         y_lower = y_upper + 10  
 
     ax.set_title(f'k = {k}', fontsize=15, fontweight='bold')
-    #annotate with average silhouette score
     ax.text(0.5, 0.5, f'{silhouette_avg:.2f}', fontsize=12, fontweight='bold')
     ax.set_xlim([-0.1, 1])
     ax.set_ylim([0, len(params_pca[['PC1', 'PC2']]) + (k + 1) * 10])
@@ -188,7 +208,7 @@ for k, ax in zip(k_values, axes.flatten()):
     ax.axvline(x=silhouette_avg, color="red", linestyle="--")
     ax.set_yticks([])
 
-        # Remove x axis from top row of plots
+    # Remove x axis from top row of plots
     if k in [2, 3, 4]:
         ax.set_xticklabels([])
         ax.set_xticks([])
@@ -214,21 +234,19 @@ kmeans.fit(params_pca[['PC1', 'PC2']])
 labels = kmeans.labels_
 params_pca['cluster'] = labels
 
-# Map cluster labels kinetic class
+# Map cluster labels to kinetic class
 cluster_mapping = {0: 'Medium', 1: 'Fast', 2: 'Slow'}
 params_pca['cluster_name'] = params_pca['cluster'].map(cluster_mapping)
 
-custom_cmap = ListedColormap(['green', 'blue', 'red'])  # Match colors: Fast, Medium, Slow
+custom_cmap = ListedColormap(['green', 'blue', 'red']) 
 norm = Normalize(vmin=0, vmax=2)
 
 # Re-map cluster values to match the desired color order
-params_pca['color_order'] = params_pca['cluster'].map({0: 1, 1: 0, 2: 2})  # Fast -> 0, Medium -> 1, Slow -> 2
-
-# Plot data points with cluster assignments
+params_pca['color_order'] = params_pca['cluster'].map({0: 1, 1: 0, 2: 2})  
 scatter = ax.scatter(
     params_pca['PC1'], 
     params_pca['PC2'], 
-    c=params_pca['color_order'],  # Re-mapped cluster values for correct color ordering
+    c=params_pca['color_order'],
     cmap=custom_cmap, 
     s=50, 
     alpha=0.5,
@@ -241,7 +259,7 @@ ax.set_ylabel('PC2', fontsize=18, fontweight='bold')
 
 # Add a color bar with custom ticks and labels
 cbar = fig.colorbar(scatter, ax=ax, ticks=[0, 1, 2])
-cbar.ax.set_yticklabels(['Fast', 'Medium', 'Slow'])  # Custom labels with "Slow" at the top
+cbar.ax.set_yticklabels(['Fast', 'Medium', 'Slow']) 
 cbar.ax.set_title('Cluster', fontsize=14, fontweight='bold', pad=10)
 fig.savefig(f'figures/fig_3b_PCAKMC.svg', dpi = 1200, bbox_inches = 'tight')
 plt.close()
