@@ -48,8 +48,11 @@ pip install -r requirements.txt
 
 <!-- Content-->
 <h2 id="content">Project structure</h2>
-This following structure shows where to place files to run the code:
-project_root/ │-- data/ # Folder for storing datasets │ │-- liposome_IVR.db # Database file (must be placed here) │ ├── drug_release/ # Folder for digitized drug release profiles │ │ │-- 1..csv
+This following structure shows where to place the database and digitised drug release profile files to run the code:
+├── data/
+|   |-- liposome_IVR.db # Place database file here 
+│   ├── 
+│   │   ├── drug_release/ # Place digitised drug release profiles here ('IVR_ID..csv')
 
 <!-- How to cite-->
 <h2 id="How-to-cite">How to cite</h2>
