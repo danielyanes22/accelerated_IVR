@@ -24,7 +24,7 @@ Liposomes are amongst the most promising and versatile nanomedicine products emp
 
 <!-- Prerequisites-->
 <h2 id="Prerequisites">Prerequisites</h2>
-The following key Python packages are required to reproduce the analysis and results in the manuscript.
+The following key Python packages are required to reproduce the analysis, results and figures in the manuscript.
 - [Pandas](https://pandas.pydata.org/) (2.1.4)
 - [Numpy](https://numpy.org/) (1.26.4)
 - [XGBoost](https://xgboost.readthedocs.io/) (2.0.3)
@@ -34,7 +34,7 @@ The following key Python packages are required to reproduce the analysis and res
 
 
 <h2 id="Installation">Installation</h2>
-Install dependencies from the provided ``` requirements.txt ``` file. The code was tested on Microsoft Windows 10, Version 22H2.
+Install dependencies from the ``` requirements.txt ``` file. The code was tested on Microsoft Windows 10, Version 22H2.
 
 ```
 pip install -r requirements.txt
