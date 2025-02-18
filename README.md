@@ -3,7 +3,8 @@
 ![license](https://img.shields.io/badge/License-CC--BY-red)
 
 
-<h2 id="Title">A machine learning pipeline to accelerate the design of *in vitro* release tests from liposomes</h2>
+<h2 id="Title">A machine learning pipeline to accelerate the design of <em>in vitro</em> release tests from liposomes</h2>
+
 
 **Daniel Yanes**<sup>1</sup>, **Vasiliki Paraskevopoulou**<sup>2</sup>, **Heather Mead**<sup>2</sup>, **James Mann**<sup>2</sup>, **Magnus Röding**<sup>3,4</sup>, **Maryam Parhizkar**<sup>5</sup>, **Cameron Alexander**<sup>1</sup>, **Jamie Twycross**<sup>6*</sup>, **Mischa Zelzer**<sup>1*</sup>
 
@@ -24,17 +25,22 @@ Liposomes are amongst the most promising and versatile nanomedicine products emp
 
 <!-- Prerequisites-->
 <h2 id="Prerequisites">Prerequisites</h2>
-The following key Python packages are required to reproduce the analysis, results and figures in the manuscript.
-- [Pandas](https://pandas.pydata.org/) (2.1.4)
-- [Numpy](https://numpy.org/) (1.26.4)
-- [XGBoost](https://xgboost.readthedocs.io/) (2.0.3)
-- [Scikit-learn](https://scikit-learn.org/) (1.4.0)
-- [SciPy](https://docs.scipy.org/doc/) (1.15.1)
-- [SHAP](https://shap.readthedocs.io/en/latest/) (0.44.1)
+
+The following key Python packages are required to reproduce the analysis, results, and figures in the manuscript:
+
+- [Pandas](https://pandas.pydata.org/) (2.1.4)  
+- [Numpy](https://numpy.org/) (1.26.4)  
+- [XGBoost](https://xgboost.readthedocs.io/) (2.0.3)  
+- [Scikit-learn](https://scikit-learn.org/) (1.4.0)  
+- [SciPy](https://docs.scipy.org/doc/) (1.15.1)  
+- [SHAP](https://shap.readthedocs.io/en/latest/) (0.44.1)  
 
 
 <h2 id="Installation">Installation</h2>
-Install dependencies from the ``` requirements.txt ``` file. The code was tested on Microsoft Windows 10, Version 22H2.
+Install dependencies from the `requirements.txt` file.  
+
+The code was tested on Microsoft Windows 10, Version 22H2.
+
 
 ```
 pip install -r requirements.txt
