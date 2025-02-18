@@ -1,5 +1,5 @@
 ![repo version](https://img.shields.io/badge/Version-v.1.0-green)
-![python version](https://img.shields.io/badge/python-3.12-blue)
+![python version](https://img.shields.io/badge/python-3.12.1-blue)
 ![license](https://img.shields.io/badge/License-CC--BY-red)
 
 
@@ -16,38 +16,32 @@
 <sup>\*</sup>Corresponding authors: mischa.zelzer@nottingham.ac.uk; jamie.twycross@nottingham.ac.uk
 
 **Abstract**\
-Liposomes are amongst the most promising and versatile nanomedicine products employed in recent years. _In vitro_ release (IVR) tests are critical during development of new liposome-based products. The drug release characteristics of a formulation are affected by multiple factors related to the formulation itself and the IVR method used. While the effect of some of these parameters has been explored, their relative importance and contribution to the final drug release profile are not understood sufficiently to enable efficient rational design choices. This causes delays in the development and approval of new medicines. In this study, a machine learning pipeline is developed, which can be used to better understand patterns in liposomal formulation properties, IVR methods and resulting drug release characteristics. A comprehensive database of liposome release profiles, including formulation properties, IVR method parameters and drug release is compiled from academic publications. A multiclass classification model is developed to predict the kinetic class of the release profile, with a significant increase in the balanced accuracy test score compared to a random baseline. The resulting machine learning approach enhances understanding of the complex liposome drug release process and provides a predictive tool to accelerate the design of liposomal IVR tests.  
+Liposomes are amongst the most promising and versatile nanomedicine products employed in recent years. In vitro release (IVR) tests are critical during development of new liposome-based products. The drug release characteristics of a formulation are affected by multiple factors related to the formulation itself and the IVR method used. While the effect of some of these parameters has been explored, their relative importance and contribution to the final drug release profile are not understood sufficiently to enable efficient rational design choices. This causes delays in the development and approval of new medicines. In this study, a machine learning pipeline is developed, which can be used to better understand patterns in liposomal formulation properties, IVR methods and resulting drug release characteristics. A comprehensive database of liposome release profiles, including formulation properties, IVR method parameters and drug release is compiled from academic publications. A multiclass classification model is developed to predict the release profile type (kinetic class), with a significant increase in the balanced accuracy test score compared to a random baseline. The resulting machine learning approach enhances understanding of the complex liposome drug release process and provides a predictive tool to accelerate the design of liposomal IVR tests.   
 
-
+**Graphical Abstract**\
 ![Figure 1](figures/ML_graphical_abstract.png?raw=true "Graphical Abstract")
-**Graphical Abstract** 
 
 
 <!-- Prerequisites-->
 <h2 id="Prerequisites">Prerequisites</h2>
-
-The following Python packages are required to run this codebase. Tested on ...
-- [Pandas](https://pandas.pydata.org/) (1.5.3)
-- [Numpy](https://numpy.org/) (1.23.5)
-- [XGBoost](https://xgboost.readthedocs.io/) (1.7.3)
-- [Scikit-learn](https://scikit-learn.org/) (1.2.1)
-- [Scikit-optimize](https://scikit-optimize.github.io/) (0.9.0)
+The following key Python packages are required to reproduce the analysis and results in the manuscript.
+- [Pandas](https://pandas.pydata.org/) (2.1.4)
+- [Numpy](https://numpy.org/) (1.26.4)
+- [XGBoost](https://xgboost.readthedocs.io/) (2.0.3)
+- [Scikit-learn](https://scikit-learn.org/) (1.4.0)
+- [SciPy](https://docs.scipy.org/doc/) (1.15.1)
+- [SHAP](https://shap.readthedocs.io/en/latest/) (0.44.1)
 
 
 <h2 id="Installation">Installation</h2>
-Install dependencies from the provided requirements.txt file. This typically takes a couple of minutes.
+Install dependencies from the provided ``` requirements.txt ``` file. The code was tested on Microsoft Windows 10, Version 22H2.
 
-``` create ```
-
-Manual installation of requirements (tested on ...):
-
-```angular2html
-
+```
+pip install -r requirements.txt
 ```
 
 <!-- Content-->
 <h2 id="content">Content</h2>
-
 This repository is structured in the following way:
 
 
@@ -58,5 +52,5 @@ This repository is structured in the following way:
 <!-- License-->
 <h2 id="License">License</h2>
 
-This codebase is under ** license. For use of specific models, please refer to the model licenses found in the original 
+This codebase is under a CC-BY license. For use of specific models, please refer to the model licenses found in the original 
 packages.
