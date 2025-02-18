@@ -47,9 +47,9 @@ pip install -r requirements.txt
 ```
 
 <!-- Content-->
-<h2 id="content">Content</h2>
-This repository is structured in the following way:
-
+<h2 id="content">Project structure</h2>
+This following structure shows where to place files to run the code:
+project_root/ │-- data/ # Folder for storing datasets │ │-- liposome_IVR.db # Database file (must be placed here) │ ├── drug_release/ # Folder for digitized drug release profiles │ │ │-- 1..csv
 
 <!-- How to cite-->
 <h2 id="How-to-cite">How to cite</h2>
