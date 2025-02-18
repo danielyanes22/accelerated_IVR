@@ -28,8 +28,6 @@ rfecv = RFECV(
 # Fit RFECV
 rfecv.fit(X, y)
 
-print(f"Optimal number of features: {rfecv.n_features_}")
-
 # Convert RFECV results to DataFrame for easier analysis
 cv_results = pd.DataFrame(rfecv.cv_results_)
 
