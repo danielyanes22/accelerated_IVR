@@ -1,6 +1,18 @@
+"""
+This script computes SHAP (SHapley Additive exPlanations) values for the trained XGBoost classifier to explain feature importance for different response classes. 
+It generates beeswarm plots for the "Slow" and "Fast" classes, highlighting the impact of each feature on the model's predictions.
+
+**Inputs**  
+- `X`, `y` from `training_scores.py`  
+
+**Outputs**  
+- SHAP values for feature importance in XGBoost classification  
+- `figures/fig5_SHAP.svg`
+
+Daniel Yanes | University of Nottingham
+"""
 
 # libraries 
-import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -10,6 +22,7 @@ import xgboost as xgb
 #shap library 
 import shap
 
+#get data 
 from training_scores import X, y
 
 xgb_clf = xgb.XGBClassifier(random_state=1884, use_label_encoder=False, eval_metric='mlogloss')
@@ -27,7 +40,6 @@ shap_values = explainer.shap_values(X)
 
 
 # Create a 2x2 subplot grid
-# Initialize figure
 fig = plt.figure(figsize=(15, 10))
 
 # Function to adjust font size of feature names in SHAP summary plots
@@ -35,14 +47,6 @@ def adjust_font_size(ax, size):
     for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] +
                  ax.get_xticklabels() + ax.get_yticklabels()):
         item.set_fontsize(size) 
-
-
-# Check shape
-#print(f"SHAP shape: {np.array(shap_values).shape}")
-#shap_values = np.transpose(shap_values, (0, 2, 1))  # Swap last two axes
-
-#shap_values_class_1 = shap_values[:, 1, :]  #Fast
-#shap_values_class_2 = shap_values[:, 2, :]  #Slow
 
 # Create the first summary plot
 ax1 = fig.add_subplot(2, 2, 1)  # Specify the position of the subplot

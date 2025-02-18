@@ -9,6 +9,8 @@ Inputs:
 Outputs:
 - df_7_features_clean: Processed dataset with 7 features (excludes 'release_method' and 'structure_type').
 - df_9_features_clean: Processed dataset with 9 features (includes 'release_method' and 'structure_type').
+
+Daniel Yanes | University of Nottingham
 """
 
 import pandas as pd

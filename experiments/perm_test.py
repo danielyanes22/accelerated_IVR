@@ -1,3 +1,21 @@
+"""
+This script performs a permutation test to assess the statistical significance of the XGBoost classifier's balanced accuracy trained on 7 features. 
+It compares the observed test score to a distribution of scores obtained by randomly permuting the labels. The resulting p-value indicates whether the model's 
+performance is significantly better than random chance. A histogram of permutation scores is generated, with a dashed line marking the observed balanced accuracy.
+
+**Inputs**  
+- `X`, `y` from `testing_scores.py`  
+- `results/ML_classifiers/test_CV.csv`  
+
+**Outputs**  
+- Permutation test results including p-value  
+- Statistical comparison of observed balanced accuracy   
+- `figures/fig6B_permtest.svg`  
+
+Daniel Yanes | University of Nottingham
+"""
+
+
 from testing_scores import X, y
 
 

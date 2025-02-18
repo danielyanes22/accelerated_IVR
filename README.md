@@ -37,10 +37,7 @@ The following key Python packages are required to reproduce the analysis, result
 
 
 <h2 id="Installation">Installation</h2>
-Install dependencies from the `requirements.txt` file.  
-
-The code was tested on Microsoft Windows 10, Version 22H2.
-
+Install dependencies from the `requirements.txt` file. The code was tested on Microsoft Windows 10, Version 22H2.
 
 ```
 pip install -r requirements.txt
@@ -56,9 +53,12 @@ This following structure shows where to place the database and digitised drug re
 │   ├── drug_release/    # Place digitised drug release profiles here ('IVR_ID..csv')
 </pre>
 
+<h2 id="content">Running the models and analysis</h2> 
+Ensure the database and digitised drug release files are located in the appropriate folders, as specified above. Run the scripts in the order specified in 'experiments/__init__.py'.
+
 <!-- How to cite-->
 <h2 id="How-to-cite">How to cite</h2>
-
+**Update DOI once generated.**
 
 <!-- License-->
 <h2 id="License">License</h2>

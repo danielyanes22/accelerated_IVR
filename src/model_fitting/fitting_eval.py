@@ -9,7 +9,7 @@ def calculate_absolute_error(mod_name, fitted_parameter_df):
 
 def calculate_aic(y_exp, y_pred, params):
     """Return AIC value for a given model and file.
-#REF "https://github.com/hadinh1306/regscore-py/tree/master/RegscorePy"
+    #REF "https://github.com/hadinh1306/regscore-py/tree/master/RegscorePy"
     Input:
         y_exp: experimental drug release % values
         y_pred: predicted drug release % values

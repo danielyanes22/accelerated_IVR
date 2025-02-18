@@ -3,7 +3,7 @@
 Script to query the database and generate the unprocessed backend dataframe. Users specify desired features, and the script extracts, joins
 IVR, CQA, API data and calculates weighted lipid properties and saves the dataframe as a csv file in 'data/unprocessed' folder.
 
-Daniel Yanes | 04/02/2025 | University of Nottingham
+Daniel Yanes |  University of Nottingham
 
 """
 

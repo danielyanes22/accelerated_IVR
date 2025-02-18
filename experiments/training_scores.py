@@ -1,3 +1,16 @@
+"""
+Calculating training scores for all classifiers trained on 9-feature dataset. 
+
+**Inputs** 
+-ML_9_features_df.csv
+
+**Output**
+-training_scores.csv
+-fig4_radarplot.svg
+
+Daniel Yanes | University of Nottingham
+"""
+
 import pandas as pd 
 import numpy as np 
 from sklearn.preprocessing import LabelEncoder

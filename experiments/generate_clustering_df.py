@@ -15,7 +15,7 @@ This script performs the following steps:
 - `data/clean/weibull_params.csv` → Final processed data for drug release clustering.
 
 
-Daniel Yanes | 13/02/2025 | University of Nottingham
+Daniel Yanes |  University of Nottingham
 """
 
 import pandas as pd 

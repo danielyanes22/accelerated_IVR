@@ -15,7 +15,7 @@ and visualised here for varying values number of clusters (k). Scree plots are a
 - fig_S8_silhouette_coefficient.svg: Silhouette plots showing the silhouette coefficient for k = 2 to 7.
 - fig_3b_PCAKMC.svg: Scatter plot of the first two principal components with K-means cluster assignments for k = 3.
 
-Daniel Yanes | 13/02/2025 | University of Nottingham
+Daniel Yanes | University of Nottingham
 
 """
 

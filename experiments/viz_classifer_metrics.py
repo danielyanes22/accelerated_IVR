@@ -1,10 +1,21 @@
+"""
+This script visualizes the cross-validated testing scores for each of machine learning classifiers.
+
+**Input** 
+-test_CV.csv 
+
+**Output** 
+-fig6c_CVtestscores.svg'
+
+Daniel Yanes |  University of Nottingham
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
 CV_test_scores = pd.read_csv('results/ML_classifiers/test_CV.csv', index_col=0)
-
-
 
 
 def plot_grouped_bars(df, filename=None):

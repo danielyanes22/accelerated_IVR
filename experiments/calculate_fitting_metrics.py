@@ -2,7 +2,7 @@
 
 Script to calculate the fitting metrics (AE, MAE, AIC, F2, RRMSE) for each model and save the results in a csv file in 'results/fitting' folder.
 
-Daniel Yanes | 13/02/2025 | University of Nottingham
+Daniel Yanes | University of Nottingham
 
 """
 

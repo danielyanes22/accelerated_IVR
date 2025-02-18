@@ -9,7 +9,7 @@ Script for generating figure 3c - Simulated weibull drug release profile for eac
 - fig_3c_drugrelease.svg: Simulated drug release profiles for each cluster based on the Weibull parameters.
 - fig_3a_drug_release_preclustering.svg: Simulated drug release profiles for each file based on the Weibull parameters.
 
-Daniel Yanes | 13/02/2025 | University of Nottingham
+Daniel Yanes | University of Nottingham
 """
 
 import pandas as pd 

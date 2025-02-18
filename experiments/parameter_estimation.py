@@ -4,7 +4,7 @@ Script to perform parameter estimation of each model using the experimental IVR 
 The script uses the experimental IVR data to fit 6 different models and optimise the parameters for each model.
 The aim of the analysis is to determine the most versatile model to describe the drug release profiles in the dataset with sufficient accuraacy.
 
-Daniel Yanes | 12/02/2025 | University of Nottingham
+Daniel Yanes |  University of Nottingham
 
 """
 

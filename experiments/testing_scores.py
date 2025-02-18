@@ -1,3 +1,21 @@
+"""
+This script trains and evaluates multiple classifiers (Decision Tree, SVM, Naïve Bayes, KNN, Logistic Regression, Random Forest, and XGBoost) on a preprocessed dataset 
+with 7 features using 5-fold stratified cross-validation. Performance is assessed using balanced accuracy, MCC, and F1-score. The trained models are saved as `.pkl` files, 
+and evaluation results are stored in CSV format.
+
+**Inputs**  
+- `ML_7_features_df.csv` (cleaned dataset with 7 features)  
+
+**Outputs**  
+- Trained machine learning models stored as pkl files in `models/`  
+- Cross-validation results stored in `results/ML_classifiers/`  
+  - `train_CV.csv` (training metrics)  
+  - `test_CV.csv` (test metrics)  
+
+Daniel Yanes | University of Nottingham
+"""
+
+
 # libraries 
 import pandas as pd
 import numpy as np

@@ -1,3 +1,19 @@
+"""
+
+This script performs backward feature elimination with Cross-Validation using an XGBoost classifier. It iteratively removes the least 
+important features based on model performance, optimizing for balanced accuracy. The final number of selected features is determined higher CV balanced accuracy score
+with the lowest variance. 
+
+**Inputs**  
+- `X`, `y` from `training_scores.py`  
+
+**Figures**  
+- `figures/fig6A_backwardelimination.svg`  
+
+Daniel Yanes | University of Nottingham
+
+"""
+
 from training_scores import X, y 
 import numpy as np
 import pandas as pd
