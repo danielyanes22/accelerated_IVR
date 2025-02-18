@@ -50,10 +50,11 @@ pip install -r requirements.txt
 <h2 id="content">Project structure</h2>
 This following structure shows where to place the database and digitised drug release profile files to run the code:
 
+<pre>
 ├── data/
-|   |-- liposome_IVR.db # Place database file here 
-│   ├── 
-│   │   ├── drug_release/ # Place digitised drug release profiles here ('IVR_ID..csv')
+│   ├── liposome_IVR.db  # Place database file here
+│   ├── drug_release/    # Place digitised drug release profiles here ('IVR_ID..csv')
+</pre>
 
 <!-- How to cite-->
 <h2 id="How-to-cite">How to cite</h2>
