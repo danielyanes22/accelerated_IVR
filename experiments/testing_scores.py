@@ -1,6 +1,7 @@
 # libraries 
 import pandas as pd
 import numpy as np
+import pickle
 
 #Classifiers
 from sklearn.tree import DecisionTreeClassifier
@@ -11,12 +12,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
 
-
-import matplotlib.pyplot as plt
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-
 #metrics
 from sklearn.metrics import balanced_accuracy_score,  matthews_corrcoef, f1_score
 
@@ -99,8 +95,6 @@ for name, clf in zip(classifier_names, classifiers):
     for train_index, test_index in cv.split(X, y):
         X_train, X_test = X.iloc[train_index], X.iloc[test_index]
         
-        print(X_train.shape, X_test.shape)
-        
         y_train, y_test = y[train_index], y[test_index]
         
         clf.fit(X_train, y_train)
@@ -158,6 +152,10 @@ for name, clf in zip(classifier_names, classifiers):
         'mean_balaccuracy': mean_test_balaccuracy, 'sd_balaccuracy': sd_test_balaccuracy, 
         'mean_mcc': mean_test_mcc, 'sd_mcc': sd_test_mcc
     }
+
+    model_filename = f"models/{name}.pkl"
+    with open(model_filename, 'wb') as file:
+        pickle.dump(clf, file)
 
 # Convert the results dictionary to DataFrames
 results_train_df = pd.DataFrame(results_train).T
