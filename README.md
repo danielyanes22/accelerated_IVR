@@ -17,7 +17,7 @@
 <sup>\*</sup>Corresponding authors: mischa.zelzer@nottingham.ac.uk; jamie.twycross@nottingham.ac.uk
 
 **Abstract**\
-Liposomes are amongst the most promising and versatile nanomedicine products employed in recent years. In vitro release (IVR) tests are critical during development of new liposome-based products. The drug release characteristics of a formulation are affected by multiple factors related to the formulation itself and the IVR method used. While the effect of some of these parameters has been explored, their relative importance and contribution to the final drug release profile are not understood sufficiently to enable efficient rational design choices. This causes delays in the development and approval of new medicines. In this study, a machine learning pipeline is developed, which can be used to better understand patterns in liposomal formulation properties, IVR methods and resulting drug release characteristics. A comprehensive database of liposome release profiles, including formulation properties, IVR method parameters and drug release is compiled from academic publications. A multiclass classification model is developed to predict the release profile type (kinetic class), with a significant increase in the balanced accuracy test score compared to a random baseline. The resulting machine learning approach enhances understanding of the complex liposome drug release process and provides a predictive tool to accelerate the design of liposomal IVR tests.   
+Liposomes are amongst the most promising and versatile nanomedicine products employed in recent years. In vitro release (IVR) tests are critical during development of new liposome-based products. The drug release characteristics of a formulation are affected by multiple factors related to the formulation itself and the IVR method used. While the effect of some of these parameters has been explored, their relative importance and contribution to the final drug release profile are not understood sufficiently to enable efficient rational design choices. This prolongs the development and approval of new medicines. In this study, a machine learning pipeline is developed, which can be used to better understand patterns in liposome formulation properties, IVR methods and resulting drug release characteristics. A comprehensive database of liposome release profiles, including formulation properties, IVR method parameters and drug release is compiled from academic publications. A classification model is developed to predict the release profile type (kinetic class), with a significant increase in the balanced accuracy test score compared to a random baseline. The resulting machine learning approach enhances understanding of the complex liposome drug release dynamics and provides a predictive tool to accelerate the design of liposome IVR tests.   
 
 **Graphical Abstract**\
 ![Figure 1](figures/ML_graphical_abstract.png?raw=true "Graphical Abstract")
@@ -45,23 +45,26 @@ pip install -r requirements.txt
 
 <!-- Content-->
 <h2 id="content">Project structure</h2>
-This following structure shows where to place the database and digitised drug release profile files to run the code:
+This following folder structure gives an overview of the repository:
 
 <pre>
 ├── data/
-│   ├── liposome_IVR.db  # Place database file here
-│   ├── drug_release/    # Place digitised drug release profiles here ('IVR_ID..csv')
+│   ├── clean/  # datasets for ML classifier screening on 7 and 9 features
+│   ├── unprocessed/ # fitted weibull params with f2 scores > 50 & backend datasets 
+├── experiments/ # Run the scripts in this order specified in __init__.py file to reproduce the analysis
+├── models # .pkl file of each ML models trained on 7 features using stratified 5-fold cross validation
+├── results # clustering, kinetic model fitting and ML_classifier evaluation files 
+├── src # helper functions for running batch parameter estimation and data preprocessing 
 </pre>
 
 <h2 id="content">Running the models and analysis</h2> 
-Ensure the database and digitised drug release files are located in the appropriate folders, as specified above. Run the scripts in the order specified in 'experiments/__init__.py'.
+Run the scripts in the order specified in 'experiments/__init__.py'.
 
 <!-- How to cite-->
 <h2 id="How-to-cite">How to cite</h2>
-**Update DOI once generated.**
+http://doi.org/10.17639/nott.7522
 
 <!-- License-->
-<h2 id="License">License</h2>
-
+<h2 id="License">License</h2>p
 This codebase is under a CC-BY license. For use of specific models, please refer to the model licenses found in the original 
 packages.
