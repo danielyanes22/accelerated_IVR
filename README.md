@@ -65,6 +65,6 @@ Run the scripts in the order specified in 'experiments/__init__.py'.
 http://doi.org/10.17639/nott.7522
 
 <!-- License-->
-<h2 id="License">License</h2>p
+<h2 id="License">License</h2>
 This codebase is under a CC-BY license. For use of specific models, please refer to the model licenses found in the original 
 packages.
