@@ -74,14 +74,7 @@ classes = np.asarray((unique)).T
 classes = classes.tolist()
 
 
-# Function to compute metrics
-def compute_metrics(y_true, y_pred):
-    metrics = {}
-    metrics['Balanced Accuracy'] = balanced_accuracy_score(y_true, y_pred)
-        
-    metrics['MCC'] = matthews_corrcoef(y_true, y_pred)
-    metrics['F1 Score'] = f1_score(y_true, y_pred, average='micro')
-    return metrics
+
 
 
 
