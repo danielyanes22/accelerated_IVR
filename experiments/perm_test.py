@@ -22,65 +22,125 @@ from testing_scores import X, y
 # libraries 
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 from sklearn.model_selection import StratifiedKFold, permutation_test_score
 
 import xgboost as xgb
 
-cv_test_scores = pd.read_csv('results/ML_classifiers/test_CV.csv')
-
-#get the column called mean_balaccuracy
-bal_accuracy_test = cv_test_scores['mean_balaccuracy'].values
-
-#get the index called 'XGBClassifier in bal_accuracy_test
-XGB_test = bal_accuracy_test[6]
 
 clf = xgb.XGBClassifier(random_state=1884, use_label_encoder=False, eval_metric='mlogloss')
 k = 5
 kf = StratifiedKFold(n_splits=k, random_state=15, shuffle=True)
 
 
-score, perm_scores, pvalue = permutation_test_score(clf, X, y, scoring="balanced_accuracy", cv=k, n_permutations=1000, random_state= 15)
+#range of permutation counts
+n_perms_list = [10, 25, 50, 100, 200 ,500, 750, 1000]
+results = []
 
-print("p-value", pvalue)
+for n_perms in n_perms_list:
+    if n_perms != 1000:
+        print(f"Running test with {n_perms} permutations...")
+        score, perm_scores, pval = permutation_test_score(
+            clf, X, y,
+            scoring="balanced_accuracy",
+            cv=k,
+            n_permutations=n_perms,
+            random_state=15
+        )
+        results.append({
+            "n_permutations": n_perms,
+            "p_value": pval
+        })
+    else:
+        print(f"Running final test with {n_perms} permutations...")
+        score, perm_scores, pval = permutation_test_score(
+            clf, X, y,
+            scoring="balanced_accuracy",
+            cv=kf,
+            n_permutations=n_perms,
+            random_state=15
+        )
+        results.append({
+            "n_permutations": n_perms,
+            "p_value": pval
+        })
 
-# Create figure with matching size
+        # Create dataframe of permutation scores
+        df_perms = pd.DataFrame({
+            'permutation_score': perm_scores,
+            'type': 'permutation'  # sets all rows to 'permutation'
+        })
+
+        # Add the observed score as its own row
+        df_observed = pd.DataFrame({
+            'permutation_score': [score],
+            'type': 'observed'
+        })
+
+        # Combine into a single dataframe
+        df_1000 = pd.concat([df_perms, df_observed], ignore_index=True)
+
+        # Save
+        df_1000.to_csv("results/ML_classifiers/permutation_scores_1000.csv", index=False)
+
+
+
+#store stability df
+df_stability = pd.DataFrame(results)
+df_stability.to_csv("results/ML_classifiers/p_values.csv", index=False)
+
+# Plot p-value convergence
+plt.figure(figsize=(6, 4.5))
+plt.plot(df_stability["n_permutations"], df_stability["p_value"], marker='o', color='deepskyblue')
+plt.axhline(y=df_stability['p_value'].iloc[-1], ls='--', color='black', label=f'Final p = {df_stability["p_value"].iloc[-1]:.3f}')
+plt.xlabel("Number of Permutations", fontsize=14)
+plt.ylabel("Empirical p-value", fontsize=14)
+plt.grid(True, linestyle="--", alpha=0.7)
+plt.tight_layout()
+plt.legend()
+plt.savefig("figures/pvalue_stability_single_run.svg", dpi=1200, bbox_inches="tight")
+
+print('done plotting p-value stability!')
+
+
+# Separate permutation scores and observed score
+perm_scores = df_1000[df_1000["type"] == "permutation"]["permutation_score"].values
+observed_score = df_1000[df_1000["type"] == "observed"]["permutation_score"].values[0]
+
+# Recalculate empirical p-value
+pval = (sum(perm_scores >= observed_score) + 1) / (len(perm_scores) + 1)
+
+# Create figure
 plt.figure(figsize=(4.5, 4.5))
 
-# Histogram of permutation scores
-plt.hist(
-    perm_scores, bins=10, density=True, alpha=0.75, 
-    color='deepskyblue', edgecolor="black")
+# Histogram
+plt.hist(perm_scores, bins=10, density=True, alpha=0.75, 
+         color='deepskyblue', edgecolor="black")
 
-# Add vertical line for observed balanced accuracy
-plt.axvline(XGB_test, ls="--", color="black", linewidth=2)
+# Observed score line
+plt.axvline(observed_score, ls="--", color="black", linewidth=2)
 
-# Compute text position
+# Text annotation
 ymin, ymax = plt.ylim()
-text_x = 0.3 * max(perm_scores)  # Position X for text
-text_y = ymax * 1.05  # Position Y slightly above max
-
-# Score label text
+text_x = 0.3 * max(perm_scores)
+text_y = ymax * 1.05
 score_label = (
-    f"Mean 5-fold CV Balanced Accuracy: {XGB_test:.2f}\n"
-    f"(p-value: {pvalue:.3f})"
+    f"Mean 5-fold CV Balanced Accuracy: {observed_score:.2f}\n"
+    f"(p-value: {pval:.3f})"
 )
-
-# Add text annotation
 plt.text(text_x, text_y, score_label, fontsize=12, color="black")
 
-# Labels with consistent font sizes
+# Labels
 plt.xlabel("Balanced Accuracy Score", fontsize=16, fontweight='bold')
 plt.ylabel("Probability Density", fontsize=16, fontweight='bold')
-
-# Increase size of axis labels and ticks
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
 
-# Improve grid aesthetics
+# Final touches
 plt.grid(True, linestyle="--", alpha=0.7)
-
-# Optimize layout and save
 plt.tight_layout()
 plt.savefig('figures/fig6B_permtest.svg', dpi=1200, bbox_inches="tight")
+plt.show()
 
-print('done!')
+print('done plotting histogram!')
+
