@@ -39,13 +39,10 @@ from sklearn.metrics import balanced_accuracy_score,  matthews_corrcoef, f1_scor
 from sklearn.model_selection import StratifiedKFold
 
 #stats
-from scipy.stats import friedmanchisquare
 from scipy.stats import wilcoxon
 
 
-
 ML_df = pd.read_csv('data/clean/ML_7_features_df.csv')
-
 
 #Split features and target variable, scale and encode target output (kinetic class)
 X = ML_df.drop(columns=['cluster'])
@@ -79,7 +76,6 @@ classes = np.asarray((unique)).T
 
 classes = classes.tolist()
 
-
 cv = StratifiedKFold(n_splits=5, random_state=15, shuffle=True)
 
 # Train and evaluate each classifier
@@ -90,12 +86,6 @@ results_train = {}
 results_test = {}
 
 results_test_per_fold = {}
-
-#store all test metrics
-all_test_balaccuracy = []
-all_test_f1 = []
-all_test_mcc = []
-
 
 fold_scores = {
     'balaccuracy': {},
@@ -132,21 +122,15 @@ for name, clf in zip(classifier_names, classifiers):
         test_mcc.append(matthews_corrcoef(y_test, y_pred_test))
     
     # Convert lists to numpy arrays to calculate mean and std
-# Convert to arrays
     train_f1, train_balaccuracy, train_mcc = map(np.array, [train_f1, train_balaccuracy, train_mcc])
     test_f1, test_balaccuracy, test_mcc = map(np.array, [test_f1, test_balaccuracy, test_mcc])
-    
-    all_test_balaccuracy.append(test_balaccuracy)
-    all_test_f1.append(test_f1)
-    all_test_mcc.append(test_mcc)
-    
-    # Store per-fold test metrics for Wilcoxon test
+        
+    # Store per-fold test metrics for Wilcoxon test and exporting
     results_test_per_fold[name] = {
     'balaccuracy': test_balaccuracy,
     'f1': test_f1,
     'mcc': test_mcc
     }
-    
     
     # Calculate mean/std
     results_train[name] = {
@@ -167,37 +151,10 @@ for name, clf in zip(classifier_names, classifiers):
         pickle.dump(clf, file)
 
 
-# Convert list of arrays into a 2D numpy array and transpose to shape (folds, models)
-balacc_array = np.array(all_test_balaccuracy).T  # shape: (5 folds, 7 models)
-f1_array = np.array(all_test_f1).T
-mcc_array = np.array(all_test_mcc).T
-
-
-model_names = [f"{classifier}" for classifier in (classifier_names)]
-df_balacc = pd.DataFrame(balacc_array, columns=model_names)
-df_f1 = pd.DataFrame(f1_array, columns=model_names)
-df_mcc = pd.DataFrame(mcc_array, columns=model_names)
-
-# Run Friedman tests
-stat_balacc, p_balacc = friedmanchisquare(*balacc_array.T)
-stat_f1, p_f1 = friedmanchisquare(*f1_array.T)
-stat_mcc, p_mcc = friedmanchisquare(*mcc_array.T)
-
-
-friedman_results = pd.DataFrame({
-    'Metric': ['Balanced Accuracy', 'F1 Score', 'MCC'],
-    'Chi-squared Statistic': [stat_balacc, stat_f1, stat_mcc],
-    'p-value': [p_balacc, p_f1, p_mcc]
-})
-
-
-# Convert the results dictionary to DataFrames
+# Convert the average / SD results dictionary to DataFrames
 results_train_df = pd.DataFrame(results_train).T
 results_test_df = pd.DataFrame(results_test).T
 
-
-
-print("\n====== Wilcoxon Signed-Rank Tests (per metric) ======")
 metrics = ['balaccuracy', 'f1', 'mcc']
 all_stats = []
 for metric in metrics:
@@ -222,16 +179,29 @@ for metric in metrics:
             'Statistic': stat,
             'p-value': p
         })
+        
+df_stats = pd.DataFrame(all_stats)
+
+# Unpack results_test_per_fold into a DataFrame for per-fold results
+fold_results = []
+n_folds = len(next(iter(results_test_per_fold.values()))['balaccuracy'])
+
+for model, metrics_dict in results_test_per_fold.items():
+    for fold in range(n_folds):
+        fold_results.append({
+            'Model': model,
+            'Fold': fold + 1,
+            'Balanced Accuracy': metrics_dict['balaccuracy'][fold],
+            'F1 Score': metrics_dict['f1'][fold],
+            'MCC': metrics_dict['mcc'][fold]
+        })
 
 # Convert to DataFrame
-df_all_stats = pd.DataFrame(all_stats)
-
+df_fold_results = pd.DataFrame(fold_results)
 
 if __name__ == '__main__':
     results_train_df.to_csv('results/ML_classifiers/train_CV.csv')
     results_test_df.to_csv('results/ML_classifiers/test_CV.csv')
-    df_balacc.to_csv('results/ML_classifiers/test_balaccuracy.csv', index=False)
-    df_f1.to_csv('results/ML_classifiers/test_f1.csv', index=False)
-    df_mcc.to_csv('results/ML_classifiers/test_mcc.csv', index=False)
-    friedman_results.to_csv("results/ML_classifiers/friedman_test_summary.csv", index=False)
-    df_all_stats.to_csv("results/ML_classifiers/wilcoxon_test_summary.csv", index=False)
+    df_fold_results.to_csv("results/ML_classifiers/model_per_fold_results.csv", index=False)
+    df_stats.to_csv("results/ML_classifiers/wilcoxon_test_summary.csv", index=False)
+
