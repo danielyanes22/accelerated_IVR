@@ -93,7 +93,7 @@ for i, cluster_name in enumerate(clusters):
     predicted_dr[cluster_name] = predicted_dr[cluster_name].loc[:,~predicted_dr[cluster_name].columns.duplicated()] #predicted_dr['clust_x'] example indexing
     
 def plot_clust_in_grid(line_colors):
-    fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(15, 5))
+    fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(15, 5), sharey=True)
 
     # Loop through clusters and corresponding line colors
     for clust_num, line_color, ax in zip([3, 1, 2], line_colors, axes.flatten()):
@@ -108,10 +108,10 @@ def plot_clust_in_grid(line_colors):
         #set the title of each plot to medium, fast and slow 
         if clust_num == 1:
             ax.set_title('Medium', fontsize=14, fontweight='bold')
-            ax.set_yticklabels([])
+            #ax.set_yticklabels([])
         elif clust_num == 2:
             ax.set_title('Fast', fontsize=14, fontweight='bold')
-            ax.set_yticklabels([])
+            #ax.set_yticklabels([])
         else:
             ax.set_title('Slow', fontsize=14, fontweight='bold')
             ax.set_ylabel('Simulated drug release / % ', fontsize=18, fontweight='bold')
