@@ -3,7 +3,7 @@
 ![license](https://img.shields.io/badge/License-CC--BY-red)
 
 
-<h2 id="Title">A machine learning pipeline to accelerate the design of <em>in vitro</em> release tests from liposomes</h2>
+<h2 id="Title">A machine learning workflow to accelerate the design of <em>in vitro</em> release tests from liposomes</h2>
 
 
 **Daniel Yanes**<sup>1</sup>, **Vasiliki Paraskevopoulou**<sup>2</sup>, **Heather Mead**<sup>2</sup>, **James Mann**<sup>2</sup>, **Magnus Röding**<sup>3,4</sup>, **Maryam Parhizkar**<sup>5</sup>, **Cameron Alexander**<sup>1</sup>, **Jamie Twycross**<sup>6*</sup>, **Mischa Zelzer**<sup>1*</sup>
@@ -17,7 +17,7 @@
 <sup>\*</sup>Corresponding authors: mischa.zelzer@nottingham.ac.uk; jamie.twycross@nottingham.ac.uk
 
 **Abstract**\
-Liposomes are amongst the most promising and versatile nanomedicine products employed in recent years. In vitro release (IVR) tests are critical during development of new liposome-based products. The drug release characteristics of a formulation are affected by multiple factors related to the formulation itself and the IVR method used. While the effect of some of these parameters has been explored, their relative importance and contribution to the final drug release profile are not understood sufficiently to enable efficient rational design choices. This prolongs the development and approval of new medicines. In this study, a machine learning pipeline is developed, which can be used to better understand patterns in liposome formulation properties, IVR methods and resulting drug release characteristics. A comprehensive database of liposome release profiles, including formulation properties, IVR method parameters and drug release is compiled from academic publications. A classification model is developed to predict the release profile type (kinetic class), with a significant increase in the balanced accuracy test score compared to a random baseline. The resulting machine learning approach enhances understanding of the complex liposome drug release dynamics and provides a predictive tool to accelerate the design of liposome IVR tests.   
+Liposomes are amongst the most promising and versatile nanomedicine products employed in recent years. In vitro release (IVR) tests are critical during development of new liposome-based products. The drug release characteristics of a formulation are affected by multiple factors related to the formulation itself and the IVR method used. While the effect of some of these parameters has been explored, their relative importance and contribution to the final drug release profile are not understood sufficiently to enable efficient rational design choices. This prolongs the development and approval of new medicines. In this study, a machine learning workflow is developed, which can be used to better understand patterns in liposome formulation properties, IVR methods and resulting drug release characteristics. A comprehensive database of liposome release profiles, including formulation properties, IVR method parameters and drug release is compiled from academic publications. A classification model is developed to predict the release profile type (kinetic class), with a significant increase in the balanced accuracy test score compared to a random baseline. The resulting machine learning approach enhances understanding of the complex liposome drug release dynamics and provides a predictive tool to accelerate the design of liposome IVR tests.   
 
 **Graphical Abstract**\
 ![Figure 1](figures/ML_graphical_abstract.png?raw=true "Graphical Abstract")
