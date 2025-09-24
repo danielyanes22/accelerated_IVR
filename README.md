@@ -61,8 +61,8 @@ This following folder structure gives an overview of the repository:
 Run the scripts in the order specified in 'experiments/__init__.py'.
 
 <!-- How to cite-->
-<h2 id="How-to-cite">How to cite</h2>
-DOI	https://doi.org/10.1039/D5DD00112A
+<h2 id="How-to-cite">Paper link</h2>
+https://doi.org/10.1039/D5DD00112A
 
 <!-- License-->
 <h2 id="License">License</h2>
