@@ -62,7 +62,7 @@ Run the scripts in the order specified in 'experiments/__init__.py'.
 
 <!-- How to cite-->
 <h2 id="How-to-cite">How to cite</h2>
-http://doi.org/10.17639/nott.7522
+DOI	https://doi.org/10.1039/D5DD00112A
 
 <!-- License-->
 <h2 id="License">License</h2>
